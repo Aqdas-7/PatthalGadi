@@ -10,7 +10,7 @@ const Updates = () => {
       date: "May 25, 2024",
       description:
         "Explore the latest photo series capturing the essence of urban landscapes around the world.",
-      link: "#",
+      link: "/New Photo Series: Urban Landscapes",
       image:
         "https://images.unsplash.com/photo-1716718406268-6ece312abee0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8", // Replace with actual image URL
     },
@@ -19,7 +19,7 @@ const Updates = () => {
       date: "April 15, 2024",
       description:
         "A glimpse into the process of creating impactful documentary films.",
-      link: "#",
+      link: "/Behind the Scenes: Documentary Filmmaking",
       image:
         "https://images.unsplash.com/photo-1716565679084-2c3dbececc5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual image URL
     },
@@ -28,7 +28,7 @@ const Updates = () => {
       date: "March 10, 2024",
       description:
         "Learn some essential tips and tricks for capturing the perfect photograph.",
-      link: "#",
+      link: "/Photography Tips: Capturing the Perfect Shot",
       image:
         "https://images.unsplash.com/photo-1716668596098-40ff5f73fb9e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D", // Replace with actual image URL
     },

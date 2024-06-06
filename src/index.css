@@ -2,84 +2,80 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --font-sora: "Sora", sans-serif;
   --font-code: "Source Code Pro", monospace;
   --font-grotesk: "Space Grotesk", sans-serif;
-  /* color-scheme: dark; */
 }
 
 * {
   scroll-behavior: smooth;
+  box-sizing: border-box;
+  /* Ensure padding and border are included in the element's total width and height */
 }
 
-@layer base {
-  /* body {
-    @apply font-sans bg-n-8 text-n-1 text-base;
-  } */
+html,
+body {
+  @apply font-sans text-base overflow-x-hidden min-h-screen;
 }
 
-.rotate-45 {
-  @apply rotate-[45deg];
+img,
+video {
+  @apply max-w-full h-auto;
 }
 
-.rotate-90 {
-  @apply rotate-[90deg];
+.container {
+  @apply max-w-screen-xl mx-auto px-4;
 }
 
-.rotate-135 {
-  @apply rotate-[135deg];
+.header {
+  @apply w-full px-4;
 }
 
-.rotate-180 {
-  @apply rotate-[180deg];
+.flex-container {
+  @apply flex flex-wrap justify-between items-center px-4;
 }
 
-.rotate-225 {
-  @apply rotate-[225deg];
+.grid-container {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4;
 }
 
-.rotate-270 {
-  @apply rotate-[270deg];
+.overflow-control {
+  @apply overflow-hidden;
 }
 
-.rotate-315 {
-  @apply rotate-[315deg];
+.text-responsive {
+  @apply text-sm sm:text-base md:text-lg lg:text-xl;
 }
 
-.rotate-360 {
-  @apply rotate-[360deg];
+.padding-responsive {
+  @apply p-2 sm:p-4 md:p-6 lg:p-8;
 }
 
-.-rotate-45 {
-  @apply rotate-[-45deg];
+.margin-responsive {
+  @apply m-2 sm:m-4 md:m-6 lg:m-8;
 }
 
-.-rotate-90 {
-  @apply rotate-[-90deg];
+.navbar {
+  @apply w-full flex flex-wrap items-center justify-between p-4 bg-gray-800;
 }
 
-.-rotate-135 {
-  @apply rotate-[-135deg];
+.navbar-brand {
+  @apply flex items-center text-white mr-6;
 }
 
-.-rotate-180 {
-  @apply rotate-[-180deg];
+.navbar-toggler {
+  @apply block lg:hidden;
 }
 
-.-rotate-225 {
-  @apply rotate-[-225deg];
+.navbar-menu {
+  @apply w-full block flex-grow lg:flex lg:items-center lg:w-auto;
 }
 
-.-rotate-270 {
-  @apply rotate-[-270deg];
+.navbar-link {
+  @apply block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4;
 }
 
-.-rotate-315 {
-  @apply rotate-[-315deg];
-}
-
-.-rotate-360 {
-  @apply rotate-[-360deg];
+.navbar-button {
+  @apply inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0;
 }

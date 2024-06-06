@@ -2,10 +2,26 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
-const About = () => {
+const AboutUs = () => {
+  const controls = useAnimation();
+  const { ref, inView } = useInView({
+    triggerOnce: false, // Ensures animation happens every time it comes into view
+    threshold: 0.1, // Adjusts the threshold as needed
+  });
+
+  React.useEffect(() => {
+    if (inView) {
+      controls.start({ opacity: 1, x: 0 });
+    } else {
+      controls.start({ opacity: 0, x: 100 });
+    }
+  }, [controls, inView]);
+
   return (
-    <section className="bg-black py-12 px-4 md:px-8 lg:px-16">
+    <section className="bg-gray-600 py-12 px-4 md:px-8 lg:px-16">
       <h1 className="text-gray-200 text-4xl font-black mb-10 text-center">
         About Us
       </h1>
@@ -19,7 +35,6 @@ const About = () => {
             interval={2200}
             stopOnHover
             transitionEffect="fade"
-            // showArrows={false} // Hide navigation arrows
             showIndicators={false} // Hide circles at the bottom
             className="rounded-lg shadow-lg relative"
           >
@@ -49,13 +64,13 @@ const About = () => {
             </div>
           </Carousel>
         </div>
-        <div className="px-8 sm:py-6 w-full lg:w-1/2 flex flex-col justify-center">
-          {/* <h1 className="text-4xl font-bold mb-4 text-white">
-            About PatthalGadi
-          </h1>
-          <p className="text-xl mb-4 text-white">
-            Photographer. Filmmaker. Environmental Advocate.
-          </p> */}
+        <motion.div
+          ref={ref}
+          className="px-8 sm:py-6 w-full lg:w-1/2 flex flex-col justify-center"
+          initial={{ opacity: 0, x: 100 }}
+          animate={controls}
+          transition={{ duration: 1 }}
+        >
           <p className="text-lg text-white mb-6">
             We are an independent group of photographers and filmmakers using
             visual storytelling to highlight the stories from the front lines of
@@ -78,10 +93,10 @@ const About = () => {
             been featured in leading news outlets, such as National Geographic
             TV, CNN, and The Guardian.
           </p>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
 };
 
-export default About;
+export default AboutUs;
