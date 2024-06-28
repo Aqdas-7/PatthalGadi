@@ -1,10 +1,13 @@
+/* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
-import BackGround from "../assets/BackGround.jpg";
+import BackGround8 from "../assets/BackGround8.jpg";
 import Footer from "../components/Footer";
 import Section from "../components/Section";
+import Form from "../components/Form";
 
 function Contact() {
   return (
@@ -12,8 +15,13 @@ function Contact() {
       <div>
         <Navbar />
         <Section>
-          <Header backgroundImage={BackGround} title="Contact" />
+          {/* <Header backgroundImage={BackGround8} title="Contact Me" /> */}
         </Section>
+
+        <Section>
+          <Form></Form>
+        </Section>
+
         <Section>
           <Footer />
         </Section>
@@ -21,4 +29,5 @@ function Contact() {
     </>
   );
 }
+
 export default Contact;

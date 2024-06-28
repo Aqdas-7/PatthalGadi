@@ -9,14 +9,16 @@
 }
 
 * {
-  scroll-behavior: smooth;
   box-sizing: border-box;
-  /* Ensure padding and border are included in the element's total width and height */
+  scroll-behavior: smooth;
 }
 
 html,
 body {
-  @apply font-sans text-base overflow-x-hidden min-h-screen;
+  @apply font-sans text-base overflow-x-hidden h-full min-h-screen;
+  margin: 0;
+  padding: 0;
+
 }
 
 img,
@@ -78,4 +80,47 @@ video {
 
 .navbar-button {
   @apply inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0;
+}
+
+.carousel-container .carousel .slide {
+  background: none;
+  /* Remove background color */
+  transition: transform 0.5s ease;
+  /* Smooth slide transition */
+}
+
+.carousel-container .carousel .control-arrow {
+  background: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent background */
+  border-radius: 50%;
+  /* Round arrows */
+  width: 40px;
+  height: 40px;
+}
+
+.carousel-container .carousel .control-prev.control-arrow:before {
+  border-left: 8px solid white;
+}
+
+.carousel-container .carousel .control-next.control-arrow:before {
+  border-right: 8px solid white;
+}
+
+.carousel-container .carousel .control-arrow:hover {
+  background: rgba(0, 0, 0, 0.7);
+  /* Darker background on hover */
+}
+
+.carousel-container .carousel .slide img {
+  border-radius: 10px;
+  /* Rounded corners for images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+}
+
+.carousel-container .carousel .legend {
+  background: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent legend background */
+  padding: 10px;
+  border-radius: 5px;
 }

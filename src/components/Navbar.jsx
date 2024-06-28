@@ -1,7 +1,9 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+// import Capture8 from "../assets/Capture-8.jpg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -35,7 +37,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`h-fit fixed top-0 w-full z-50 transition-transform duration-300 ease-in-out ${
+      className={`h-fit fixed top-0  w-full z-50 transition-transform duration-200 ease-in-out ${
         visible ? "transform translate-y-0" : "transform -translate-y-full"
       }`}
     >
@@ -43,7 +45,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20 max-w-7xl mx-auto px-1 sm:px-6 lg:px-8">
           <Link
             to="/"
-            className="text-3xl font-bold text-[#295c38] flex items-center"
+            className="text-3xl text-left font-bold text-[#295c38] flex items-center"
           >
             PatthalGadi.
           </Link>
@@ -52,7 +54,7 @@ const Navbar = () => {
               <Link
                 key={item.id}
                 to={item.href}
-                className="font-semibold p-2 hover:bg-[#aff0c2] rounded-xl transition duration-300 hover:text-white"
+                className="font-semibold p-2 hover:bg-black rounded-xl transition duration-300 hover:text-white"
               >
                 {item.text}
               </Link>
@@ -70,23 +72,12 @@ const Navbar = () => {
             nav ? "translate-x-0" : "-translate-x-full"
           }`}
         >
-          <div className="flex justify-between items-center h-20 px-1 border-b border-gray-200">
-            <Link
-              to="/"
-              className="text-3xl font-bold text-[#295c38] flex items-center"
-            >
-              PatthalGadi.
-            </Link>
-            <div onClick={handleNav} className="cursor-pointer text-black">
-              {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
-            </div>
-          </div>
-          <ul className="flex flex-col items-center space-y-6 mt-10 px-4">
+          <ul className="flex flex-col items-center space-y-6 mt-10 px-4 bg-white">
             {navItems.map((item) => (
               <li key={item.id} className="w-full text-center">
                 <Link
                   to={item.href}
-                  className="block w-full p-4 font-semibold border border-gray-200 hover:bg-[#aff0c2] transition duration-300 hover:text-white"
+                  className="block w-full p-4 font-semibold border border-gray-200 hover:bg-[#000000] transition duration-300 hover:text-white"
                   onClick={handleNav}
                 >
                   {item.text}

@@ -2,10 +2,9 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
-import BackGround1 from "../assets/BackGround1.jpg";
+import BackGround7 from "../assets/BackGround7.jpg";
 import Footer from "../components/Footer";
 import Section from "../components/Section";
-import Stories from "../components/Stories";
 
 function Learn() {
   return (
@@ -13,12 +12,8 @@ function Learn() {
       <div>
         <Navbar />
         <Section>
-          <Header backgroundImage={BackGround1} title="Learn" />
+          <Header backgroundImage={BackGround7} title="Learn" />
         </Section>
-        <Section>
-          <Stories></Stories>
-        </Section>
-
         <Section>
           <Footer />
         </Section>
