@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 import Section from "../components/Section";
 // import AboutUs from "../components/AboutUs";
 import TextCarousel from "../components/TextCarousel";
-// import BackGround7 from "../assets/BackGround7.jpg";
+import background9 from "../assets/background9.jpg";
 import { useNavigate } from "react-router-dom";
 import { updates, stories } from "../constants.js";
 
@@ -59,9 +59,7 @@ function Home() {
         <Navbar />
         <Section>
           <Header
-            backgroundImage={
-              "https://media.istockphoto.com/id/1354116434/photo/broken-glass-texture-wreck-glass.jpg?s=612x612&w=0&k=20&c=QTS5CXVcYXAo5EVncL0GthoeVSBklpvzBvHs-eX6P7U="
-            }
+            backgroundImage={background9}
             location="Based in Hazaribagh, Jharkhand"
             title="Photographer and Filmmaker"
             subtitle="Climate Crisis & Global Environmental Issues"

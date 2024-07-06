@@ -2,7 +2,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
-import BackGround7 from "../assets/BackGround7.jpg";
+import Photo3 from "../assets/Photo3.jpg";
 import Footer from "../components/Footer";
 import Section from "../components/Section";
 
@@ -12,7 +12,7 @@ function Learn() {
       <div>
         <Navbar />
         <Section>
-          <Header backgroundImage={BackGround7} title="Learn" />
+          <Header backgroundImage={Photo3} title="Learn" />
         </Section>
         <Section>
           <Footer />

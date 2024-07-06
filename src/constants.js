@@ -1,12 +1,16 @@
+import BackGround8 from './assets/BackGround8.jpg';
+import Photo1 from './assets/Photo1.jpg';
+
+
 export const updates = [
   {
     title: "New Photo Series: Urban Landscapes",
     date: "May 25, 2024",
     description:
-      "Explore the latest photo series capturing the essence of urban landscapes around the world.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At elementum eu facilisis sed odio morbi quis commodo odio. Odio pellentesque diam volutpat commodo. Sed egestas egestas fringilla phasellus. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque. Habitasse platea dictumst quisque sagittis purus sit amet. Lorem ipsum dolor sit amet consectetur adipiscing. Netus et malesuada fames ac turpis egestas integer eget. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Justo eget magna fermentum iaculis eu. Enim praesent elementum facilisis leo vel fringilla est ullamcorper. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Aenean euismod elementum nisi quis eleifend quam. Fermentum et sollicitudin ac orci phasellus egestas. Donec enim diam vulputate ut pharetra sit amet aliquam id. Porttitor massa id neque aliquam vestibulum morbi. Quam lacus suspendisse faucibus interdum posuere lorem ipsum. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit. Augue mauris augue neque gravida in fermentum et. Et netus et malesuada fames. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Et leo duis ut diam. Fames ac turpis egestas integer eget aliquet nibh praesent tristique. Sit amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl. Tellus in metus vulputate eu. Facilisis magna etiam tempor orci eu lobortis elementum nibh. Aliquam vestibulum morbi blandit cursus risus at ultrices mi. Urna id volutpat lacus laoreet non. Duis ultricies lacus sed turpis tincidunt. Viverra nam libero justo laoreet. Tempus iaculis urna id volutpat lacus laoreet. Sit amet consectetur adipiscing elit ut aliquam purus. Cursus euismod quis viverra nibh cras pulvinar. Vitae elementum curabitur vitae nunc sed. Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Eget nunc scelerisque viverra mauris in. Fermentum iaculis eu non diam phasellus vestibulum lorem. Risus feugiat in ante metus dictum at tempor commodo. Proin libero nunc consequat interdum varius. Eget nunc lobortis mattis aliquam faucibus purus in massa. Vel elit scelerisque mauris pellentesque pulvinar pellentesque. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Libero nunc consequat interdum varius sit. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mattis rhoncus urna neque viverra justo nec. Eu volutpat odio facilisis mauris sit amet massa vitae tortor. Amet consectetur adipiscing elit ut aliquam. Sit amet tellus cras adipiscing enim eu turpis. Magna ac placerat vestibulum lectus mauris ultrices eros. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Elementum nisi quis eleifend quam adipiscing vitae. Amet consectetur adipiscing elit pellentesque habitant morbi tristique. Sagittis id consectetur purus ut faucibus pulvinar elementum. Auctor urna nunc id cursus metus aliquam eleifend mi in. Sem viverra aliquet eget sit amet tellus cras adipiscing. Turpis nunc eget lorem dolor sed viverra. Urna condimentum mattis pellentesque id nibh. Libero id faucibus nisl tincidunt eget nullam. Tortor posuere ac ut consequat semper viverra nam libero justo. Mattis molestie a iaculis at erat pellentesque adipiscing. Cursus euismod quis viverra nibh cras pulvinar. Aliquam id diam maecenas ultricies mi. Ut aliquam purus sit amet luctus venenatis lectus magna fringilla. Et ligula ullamcorper malesuada proin. Gravida neque convallis a cras semper auctor neque vitae. Non nisi est sit amet facilisis magna etiam tempor orci. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Nulla malesuada pellentesque elit eget gravida cum sociis. Vestibulum mattis ullamcorper velit sed. Nunc consequat interdum varius sit amet mattis vulputate. Feugiat in ante metus dictum at tempor commodo.",
     link: "/New Photo Series: Urban Landscapes",
-    image:
-      "https://images.unsplash.com/photo-1716718406268-6ece312abee0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8",
+    image: Photo1,
+    youtubeUrl: "https://www.youtube.com/watch?v=R8CIO1DZ2b8"
   },
   {
     title: "Behind the Scenes: Documentary Filmmaking",
@@ -16,6 +20,7 @@ export const updates = [
     link: "/Behind the Scenes: Documentary Filmmaking",
     image:
       "https://images.unsplash.com/photo-1716565679084-2c3dbececc5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D",
+    youtubeUrl: "https://www.youtube.com/watch?v=BagPDxyQfeQ"
   },
   {
     title: "Photography Tips: Capturing the Perfect Shot",
@@ -25,8 +30,10 @@ export const updates = [
     link: "/Photography Tips: Capturing the Perfect Shot",
     image:
       "https://images.unsplash.com/photo-1716668596098-40ff5f73fb9e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D",
+    youtubeUrl: "https://www.youtube.com/watch?v=o5u4HV342Vg"
   },
-];
+].reverse();
+
 
 export const stories = [
   {
@@ -35,15 +42,14 @@ export const stories = [
     url: "/story1",
     description:
       "Hi, I’m Story 1, a passionate photographer and videographer with a love for capturing the beauty of the world. Hi, I’m Story 1, a passionate photographer and videographer with a love for capturing the beauty of the world. Hi, I’m Story 1, a passionate photographer and videographer with a love for capturing the beauty of the world. Hi, I’m Story 1, a passionate photographer and videographer with a love for capturing the beauty of the world. Hi, I’m Story 1, a passionate photographer and videographer with a love for capturing the beauty of the world. Hi, I’m Story 1, a passionate photographer and videographer with a love for capturing the beauty of the world. Hi, I’m Story 1, a passionate photographer and videographer with a love for capturing the beauty of the world. Hi, I’m Story 1, a passionate photographer and videographer with a love for capturing the beauty of the world.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1553696719-628fcab87c9f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fHw%3D",
+    imageUrl:BackGround8,
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     imageUrls: [
       "https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&w=600",
       "https://images.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg?auto=compress&cs=tinysrgb&w=600",
       "https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&w=600",
       "https://images.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&w=600",
+      Photo1,
     ],
   },
   {
@@ -71,7 +77,7 @@ export const stories = [
       "Hi, I’m Story 3, a passionate photographer and videographer with a love for capturing the beauty of the world.",
     imageUrl:
       "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fHw%3D",
-    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/watch?v=bzxFUlKf_ns",
     imageUrls: [
       "https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&w=600",
       "https://images.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -131,4 +137,4 @@ export const stories = [
       "https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&w=600",
     ],
   },
-];
+].reverse();

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#454545] py-8">
       <div className="container mx-auto flex flex-col items-center">
-        <h2 className="text-white text-2xl font-bold mb-6">Follow Me</h2>
+        <h2 className="text-white text-2xl font-bold mb-6">Follow Us</h2>
         <div className="flex space-x-6">
           <a
             href="https://www.youtube.com/watch?v=HbgzrKJvDRw"

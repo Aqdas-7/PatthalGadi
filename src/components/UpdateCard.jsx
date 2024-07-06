@@ -9,6 +9,12 @@ const cardVariants = {
   visible: { x: 0, opacity: 1, transition: { duration: 0.5 } },
 };
 
+const truncateText = (text, wordLimit) => {
+  const words = text.split(" ");
+  if (words.length <= wordLimit) return text;
+  return words.slice(0, wordLimit).join(" ") + "...";
+};
+
 const UpdateCard = ({ update, isHovered, onMouseEnter, onMouseLeave }) => {
   return (
     <motion.div
@@ -29,7 +35,7 @@ const UpdateCard = ({ update, isHovered, onMouseEnter, onMouseLeave }) => {
           {update.title}
         </h3>
         <p className="text-gray-500 text-sm mb-2">{update.date}</p>
-        <p className="text-black mb-2">{update.description}</p>
+        <p className="text-black mb-2">{truncateText(update.description, 15)}</p>
         <Link to={update.link} className="text-blue-500 hover:underline">
           Read more
         </Link>

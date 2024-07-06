@@ -23,42 +23,60 @@ const StoryPage = ({ stories }) => {
     return regex.test(url);
   };
 
-  const imageContainerStyle = {
-    position: "relative",
-    width: "100%",
-    height: "500px", // Set a fixed height for uniform image size
-  };
-
-  const imageStyle = {
-    width: "100%",
-    height: "100%",
-    objectFit: "cover", // Ensures the image covers the container without distortion
+  const styles = {
+    storyPage: {
+      display: "flex",
+      flexDirection: "column",
+      minHeight: "100vh",
+    },
+    halfScreenHeader: {
+      height: "50vh", // Half the screen height
+    },
+    contentContainer: {
+      flex: 1,
+      padding: "2rem",
+      maxWidth: "1200px",
+      margin: "0 auto",
+    },
+    carouselContainer: {
+      width: "100%",
+      marginBottom: "2rem",
+    },
+    imageContainer: {
+      height: "500px", // Larger than the previous size
+    },
+    carouselImage: {
+      width: "100%",
+      height: "100%",
+      objectFit: "cover", // Ensures the image covers the container without distortion
+    },
+    storyDescription: {
+      fontSize: "1.125rem", // Text size for minimalistic style
+      lineHeight: "1.75rem",
+      color: "#333",
+      textAlign: "justify", // Justify text
+      marginBottom: "2rem",
+      width: "100%", // Take up almost all the width
+    },
+    videoContainer: {
+      width: "100%",
+      maxWidth: "800px", // Set a max width for the video
+      margin: "0 auto 2rem auto", // Center the video and add bottom margin
+    },
   };
 
   return (
-    <div className="story-page">
+    <div style={styles.storyPage}>
       <Navbar />
-      <Header backgroundImage={story.imageUrl} title={story.title} />
-      <div className="max-w-4xl mx-auto py-10 px-4 sm:px-6 lg:px-8">
-        <p className="story-description text-lg leading-relaxed mb-8">
-          {story.description}
-        </p>
-
-        {/* YouTube Video Section */}
-        {story.videoUrl && isYouTubeUrl(story.videoUrl) && (
-          <div className="video-container mb-8">
-            <ReactPlayer
-              url={story.videoUrl}
-              width="100%"
-              controls
-              onError={() => console.error("Failed to load video")}
-            />
-          </div>
-        )}
-
+      <Header
+        backgroundImage={story.imageUrl}
+        title={story.title}
+        style={styles.halfScreenHeader}
+      />
+      <div style={styles.contentContainer}>
         {/* Image Carousel Section */}
         {story.imageUrls && story.imageUrls.length > 0 && (
-          <div className="carousel-container mb-8">
+          <div style={styles.carouselContainer}>
             <Carousel
               showThumbs={false}
               infiniteLoop
@@ -66,15 +84,30 @@ const StoryPage = ({ stories }) => {
               autoPlay
             >
               {story.imageUrls.map((imageUrl, index) => (
-                <div key={index} style={imageContainerStyle}>
+                <div key={index} style={styles.imageContainer}>
                   <img
                     src={imageUrl}
                     alt={`Slide ${index}`}
-                    style={imageStyle}
+                    style={styles.carouselImage}
                   />
                 </div>
               ))}
             </Carousel>
+          </div>
+        )}
+
+        {/* Story Description */}
+        <p style={styles.storyDescription}>{story.description}</p>
+
+        {/* YouTube Video Section */}
+        {story.videoUrl && isYouTubeUrl(story.videoUrl) && (
+          <div style={styles.videoContainer}>
+            <ReactPlayer
+              url={story.videoUrl}
+              width="100%"
+              controls
+              onError={() => console.error("Failed to load video")}
+            />
           </div>
         )}
       </div>

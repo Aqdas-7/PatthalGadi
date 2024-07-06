@@ -22,9 +22,7 @@ function Contact() {
           <Form></Form>
         </Section>
 
-        <Section>
-          <Footer />
-        </Section>
+        
       </div>
     </>
   );
