@@ -45,7 +45,7 @@ const TextCarousel = ({ images, text, button }) => {
     <div className="bg-[#454545] text-white p-8 md:p-16">
       <div className="max-w-screen-xl mx-auto">
         <h1 className="text-4xl font-black text-white mb-10 text-center py-12">
-          About Me
+          About Us
         </h1>
         <div className="flex flex-col md:flex-row items-stretch justify-between">
           <motion.div

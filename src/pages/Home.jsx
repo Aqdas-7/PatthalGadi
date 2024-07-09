@@ -21,8 +21,7 @@ const images = [
 ];
 
 const text = [
-  "Hi, I’m [Your Name], a passionate photographer and videographer with a love for capturing the beauty of the world. My journey started [X years ago] when I picked up my first camera and discovered the magic of storytelling through visuals. Over the years, I have honed my skills, exploring various genres and techniques to bring my vision to life.",
-  "I specialize in [mention your specializations: e.g., landscape photography, portrait photography, video production, etc.]. My work has been featured in [mention notable publications or achievements]. I strive to push the boundaries of creativity and innovation in every project I undertake.",
+  "In the heart of India, Patthalgadi Foundation dives into rural and tribal life.  We document the rich history, culture, and struggles of these forgotten communities.  But Patthalgadi goes beyond storytelling.  We use film and research to champion environmental justice, raising awareness about climate change and habitat loss in these regions.  Investing in the future, we train budding storytellers and social workers, ensuring these voices continue to be heard.  Join Patthalgadi to explore untold stories, advocate for change, and empower communities to shape their own future.",
 ];
 
 const displayedStories = stories.slice(0, 6);
