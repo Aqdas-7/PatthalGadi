@@ -8,6 +8,7 @@ import Section from "../components/Section";
 import Updates from "../components/Updates";
 import { updates } from "../constants";
 import CustomCarousel from "../components/CustomCarousel";
+import Services from "../components/Services";
 
 const images = [
   "https://images.unsplash.com/photo-1720545525602-b3fcc473b32b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8",
@@ -32,6 +33,10 @@ function Hireme() {
             }
             title="Hire Me"
           />
+        </Section>
+
+        <Section>
+          <Services />
         </Section>
         <Section>
           <CustomCarousel images={images}></CustomCarousel>

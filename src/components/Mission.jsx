@@ -10,7 +10,7 @@ const Mission = () => {
       style={{ backgroundImage: `url(${a3})` }}
     >
       <div className="container mx-auto px-6">
-        <h2 className="text-5xl text-[#ffffff] font-black text-center mb-20">
+        <h2 className="text-5xl text-[#ffffff] font-black text-center mb-20 uppercase">
           Our Mission
         </h2>
 

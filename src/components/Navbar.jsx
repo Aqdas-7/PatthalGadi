@@ -41,11 +41,11 @@ const Navbar = () => {
         visible ? "transform translate-y-0" : "transform -translate-y-full"
       }`}
     >
-      <div className="bg-white shadow-md w-full overflow-x-hidden">
+      <div className="bg-[#f5f5f5] shadow-md w-full overflow-x-hidden">
         <div className="flex justify-between items-center h-20 max-w-7xl mx-auto px-1 sm:px-6 lg:px-8">
           <Link
             to="/"
-            className="text-3xl text-left font-bold text-[#295c38] flex items-center"
+            className="text-3xl text-left font-bold text-[#F05454] flex items-center"
           >
             PatthalGadi.
           </Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
               <Link
                 key={item.id}
                 to={item.href}
-                className="font-semibold p-2 hover:bg-black rounded-xl transition duration-300 hover:text-white"
+                className="font-semibold p-2 hover:bg-[#121212] rounded-xl transition duration-300 hover:text-[#f5f5f5]"
               >
                 {item.text}
               </Link>
@@ -62,22 +62,22 @@ const Navbar = () => {
           </div>
           <div
             onClick={handleNav}
-            className="block md:hidden z-50 cursor-pointer text-black"
+            className="block md:hidden z-50 cursor-pointer text-[#121212]"
           >
             {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
           </div>
         </div>
         <div
-          className={`md:hidden fixed top-0 left-0 w-full h-full bg-white transition-transform duration-500 ease-in-out z-40 ${
+          className={`md:hidden fixed top-0 left-0 w-full h-full bg-[#f5f5f5] transition-transform duration-500 ease-in-out z-40 ${
             nav ? "translate-x-0" : "-translate-x-full"
           }`}
         >
-          <ul className="flex flex-col items-center space-y-6 mt-10 px-4 bg-white">
+          <ul className="flex flex-col items-center space-y-6 mt-10 px-4 bg-[#f5f5f5]">
             {navItems.map((item) => (
               <li key={item.id} className="w-full text-center">
                 <Link
                   to={item.href}
-                  className="block w-full p-4 font-semibold border border-gray-200 hover:bg-[#000000] transition duration-300 hover:text-white"
+                  className="block w-full p-4 font-semibold border border-[#f5f5f5] hover:bg-[#121212] transition duration-300 hover:text-[#f5f5f5]"
                   onClick={handleNav}
                 >
                   {item.text}

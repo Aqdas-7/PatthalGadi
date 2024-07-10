@@ -23,7 +23,7 @@ const StoryPage = ({ stories }) => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-[#f5f5f5]">
       <Navbar />
       <Header
         backgroundImage={story.imageUrl}
@@ -35,10 +35,10 @@ const StoryPage = ({ stories }) => {
         <CustomCarousel images={story.imageUrls} captions={story.captions} />
       </div>
 
-      <div className="flex-1 p-4 sm:p-8 max-w-screen-xl mx-auto">
+      <div className="flex-1 p-4 sm:p-8 mx-auto">
         {/* Story Description */}
-        <div className="bg-[#E8F9FD] text-white p-8 rounded-lg shadow-2xl mb-12 max-w-6xl mx-auto">
-          <p className="text sm:text-base md:text-lg leading-relaxed text-[#000000] mb-4 sm:mb-8 text-justify">
+        <div className="bg-[#f5f5f5] font-semibold text-white p-8 rounded-lg shadow-2xl mb-12 max-w-7xl mx-auto">
+          <p className="font-semibold sm:text-base md:text-lg leading-relaxed text-[#30475E] mb-4 sm:mb-8 text-justify">
             {story.description}
           </p>
         </div>

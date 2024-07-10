@@ -32,8 +32,8 @@ const Updates = ({ updates }) => {
 
   return (
     <div className="container mx-auto px-0 py-12">
-      <div className="bg-white p-6 shadow-lg ">
-        <h2 className="text-4xl text-center font-black text-gray-600 mb-20">
+      <div className="bg-[#f5f5f5] p-6 shadow-lg ">
+        <h2 className="text-4xl text-center font-black text-[#121212] mb-20">
           Trending
         </h2>
         <motion.div

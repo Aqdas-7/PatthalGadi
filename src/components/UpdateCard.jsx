@@ -20,7 +20,7 @@ const UpdateCard = ({ update, isHovered, onMouseEnter, onMouseLeave }) => {
     <motion.div
       className={`p-6 rounded-lg transition-transform duration-300 transform ${
         isHovered ? "scale-105 shadow-2xl" : "scale-100"
-      } bg-white`}
+      } bg-[#30475E]`}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       variants={cardVariants}
@@ -31,12 +31,14 @@ const UpdateCard = ({ update, isHovered, onMouseEnter, onMouseLeave }) => {
         className="w-full h-48 object-cover rounded-t-lg"
       />
       <div className="p-4">
-        <h3 className="text-xl font-semibold mb-2 text-black">
+        <h3 className="text-xl font-extrabold mb-2 text-[#F05454]">
           {update.title}
         </h3>
-        <p className="text-gray-500 text-sm mb-2">{update.date}</p>
-        <p className="text-black mb-2">{truncateText(update.description, 15)}</p>
-        <Link to={update.link} className="text-blue-500 hover:underline">
+        <p className="text-[#ffffff] text-sm mb-2">{update.date}</p>
+        <p className="text-[#f5f5f5] font-bold mb-2">
+          {truncateText(update.description, 15)}
+        </p>
+        <Link to={update.link} className="text-[#f8c14b] hover:underline">
           Read more
         </Link>
       </div>

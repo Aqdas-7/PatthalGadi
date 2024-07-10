@@ -68,7 +68,7 @@ function Home() {
           <Stories stories={displayedStories} />
           <button
             type="button"
-            className="flex justify-end py-4 px-8 bg-white text-black font-bold shadow-sm hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 border border-black mb-20 ml-auto"
+            className="flex justify-end py-4 px-8 bg-[#f5f5f5] text-[#121212] font-bold shadow-sm hover:bg-[#121212] hover:text-[#f5f5f5] focus:outline-none focus:ring-2 focus:ring-offset-2 border border-black mb-20 ml-auto"
             onClick={handleReadMore}
           >
             Read More

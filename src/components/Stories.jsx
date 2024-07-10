@@ -48,9 +48,9 @@ const Stories = ({ stories }) => {
   }, [controls, inView]);
 
   return (
-    <section ref={ref} className="bg-white py-20">
+    <section ref={ref} className="bg-[#f5f5f5] py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl text-center font-black text-gray-600 sm:text-4xl mb-20">
+        <h2 className="text-4xl text-center font-black text-[#121212] sm:text-4xl mb-20">
           Featured Stories
         </h2>
         <motion.div

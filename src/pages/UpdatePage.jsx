@@ -26,10 +26,12 @@ const UpdatePage = ({ updates }) => {
             className="absolute inset-0 w-full h-full object-cover"
           />
         </div>
-        <h1 className="text-4xl font-black text-black mb-4">{update.title}</h1>
+        <h1 className="text-4xl font-black text-[#121212] mb-4">
+          {update.title}
+        </h1>
         <p className="text-[#454545] font-extrabold mb-8">{update.date}</p>
         <div className="bg-[#F5F5F5] text-white p-8 rounded-lg shadow-lg mb-12 max-w-7xl mx-auto">
-          <p className="text-[#121212] text-justify font-semibold mb-16">
+          <p className="text-[#30475E] text-justify font-semibold mb-16">
             {update.description}
           </p>
         </div>

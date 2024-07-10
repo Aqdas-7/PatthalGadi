@@ -10,7 +10,7 @@ const Vision = () => {
       style={{ backgroundImage: `url(${a11})` }}
     >
       <div className="container mx-auto px-6">
-        <h2 className="text-5xl text-[#454545] font-black text-center mb-20">
+        <h2 className="text-5xl text-[#454545] font-black text-center mb-20 uppercase">
           Our Vision
         </h2>
 
