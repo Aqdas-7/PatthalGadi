@@ -10,7 +10,7 @@ const Mission = () => {
       style={{ backgroundImage: `url(${a3})` }}
     >
       <div className="container mx-auto px-6">
-        <h2 className="text-5xl text-[#ffffff] font-black text-left mb-20">
+        <h2 className="text-5xl text-[#ffffff] font-black text-center mb-20">
           Our Mission
         </h2>
 
@@ -18,7 +18,7 @@ const Mission = () => {
           <h3 className="text-3xl font-extrabold text-center mb-12">
             Storytelling for Impact: The Patthalgadi Initiative
           </h3>
-          <p className="text-lg text-center max-w-2xl mx-auto font-bold text-[#454545] mb-8">
+          <p className="text-lg text-justify max-w-2xl mx-auto font-bold text-[#454545] mb-8">
             Our core objective is to serve as a beacon of empowerment for those
             whose voices are often marginalized and unheard. Through our
             dedication to documenting and showcasing the history, culture, and

@@ -6,8 +6,7 @@ import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ReactPlayer from "react-player";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import CustomCarousel from "../components/CustomCarousel";
 
 const StoryPage = ({ stories }) => {
   const { storyId } = useParams();
@@ -23,85 +22,30 @@ const StoryPage = ({ stories }) => {
     return regex.test(url);
   };
 
-  const styles = {
-    storyPage: {
-      display: "flex",
-      flexDirection: "column",
-      minHeight: "100vh",
-    },
-    halfScreenHeader: {
-      height: "50vh", // Half the screen height
-    },
-    contentContainer: {
-      flex: 1,
-      padding: "2rem",
-      maxWidth: "1200px",
-      margin: "0 auto",
-    },
-    carouselContainer: {
-      width: "100%",
-      marginBottom: "2rem",
-    },
-    imageContainer: {
-      height: "500px", // Larger than the previous size
-    },
-    carouselImage: {
-      width: "100%",
-      height: "100%",
-      objectFit: "cover", // Ensures the image covers the container without distortion
-    },
-    storyDescription: {
-      fontSize: "1.125rem", // Text size for minimalistic style
-      lineHeight: "1.75rem",
-      color: "#333",
-      textAlign: "justify", // Justify text
-      marginBottom: "2rem",
-      width: "100%", // Take up almost all the width
-    },
-    videoContainer: {
-      width: "100%",
-      maxWidth: "800px", // Set a max width for the video
-      margin: "0 auto 2rem auto", // Center the video and add bottom margin
-    },
-  };
-
   return (
-    <div style={styles.storyPage}>
+    <div className="flex flex-col min-h-screen">
       <Navbar />
       <Header
         backgroundImage={story.imageUrl}
         title={story.title}
-        style={styles.halfScreenHeader}
+        className="h-[50vh]" // Half the screen height
       />
-      <div style={styles.contentContainer}>
-        {/* Image Carousel Section */}
-        {story.imageUrls && story.imageUrls.length > 0 && (
-          <div style={styles.carouselContainer}>
-            <Carousel
-              showThumbs={false}
-              infiniteLoop
-              useKeyboardArrows
-              autoPlay
-            >
-              {story.imageUrls.map((imageUrl, index) => (
-                <div key={index} style={styles.imageContainer}>
-                  <img
-                    src={imageUrl}
-                    alt={`Slide ${index}`}
-                    style={styles.carouselImage}
-                  />
-                </div>
-              ))}
-            </Carousel>
-          </div>
-        )}
 
+      <div className="py-20">
+        <CustomCarousel images={story.imageUrls} captions={story.captions} />
+      </div>
+
+      <div className="flex-1 p-4 sm:p-8 max-w-screen-xl mx-auto">
         {/* Story Description */}
-        <p style={styles.storyDescription}>{story.description}</p>
+        <div className="bg-[#E8F9FD] text-white p-8 rounded-lg shadow-2xl mb-12 max-w-6xl mx-auto">
+          <p className="text sm:text-base md:text-lg leading-relaxed text-[#000000] mb-4 sm:mb-8 text-justify">
+            {story.description}
+          </p>
+        </div>
 
         {/* YouTube Video Section */}
         {story.videoUrl && isYouTubeUrl(story.videoUrl) && (
-          <div style={styles.videoContainer}>
+          <div className="w-full max-w-lg md:max-w-2xl mx-auto mb-4 sm:mb-8">
             <ReactPlayer
               url={story.videoUrl}
               width="100%"

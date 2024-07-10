@@ -18,7 +18,6 @@ body {
   @apply font-sans text-base overflow-x-hidden h-full min-h-screen;
   margin: 0;
   padding: 0;
-
 }
 
 img,

@@ -10,7 +10,7 @@ const Description = () => {
       style={{ backgroundImage: `url(${a6})` }}
     >
       <div className="container mx-auto px-6">
-        <div className="bg-[#fffce8] text-white p-8 rounded-lg shadow-lg mb-12 max-w-8xl mx-auto">
+        <div className="bg-[#fffce8] text-white p-8 rounded-lg shadow-lg mb-12 max-w-6xl mx-auto">
           <h3 className="text-4xl text-[#534455] font-black text-center mb-8">
             Welcome to Patthalgadi Foundation
           </h3>
@@ -18,7 +18,7 @@ const Description = () => {
             Here exploration meets advocacy, and storytelling becomes a catalyst
             for change.
           </h4>
-          <p className="text-md text-left max-w-2xl mx-auto font-bold text-[#ab8149] mb-8">
+          <p className="text-lg text-justify max-w-4xl mx-auto font-bold text-[#ab8149] mb-8">
             At Patthalgadi Foundation we are more than just a research and
             filmmaking organization. We are passionate explorers dedicated to
             uncovering the rich tapestry of remote and rural life across India.

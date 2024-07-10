@@ -8,6 +8,9 @@ import Section from "../components/Section";
 import Description from "../components/Description";
 import Vision from "../components/Vision";
 import Mission from "../components/Mission";
+// import CustomCarousel from "../components/CustomCarousel";
+
+// const images = [Photo4, Photo4, Photo4];
 
 function About() {
   return (
@@ -23,6 +26,7 @@ function About() {
         </Section>
         <Section>
           <Description />
+          {/* <CustomCarousel images={images} /> */}
           <Mission />
           <Vision />
         </Section>

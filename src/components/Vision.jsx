@@ -18,7 +18,7 @@ const Vision = () => {
           <h3 className="text-3xl font-extrabold text-center mb-12">
             Unveiling the Blueprint: India's Sustainable Future, Unfolded
           </h3>
-          <p className="text-lg text-center max-w-2xl mx-auto font-bold text-[#454545] mb-12">
+          <p className="text-lg text-justify max-w-2xl mx-auto font-bold text-[#454545] mb-12">
             A Real Empowered India, we envision a future where sustainable
             practices are woven into the fabric of our society, ensuring
             prosperity and well-being for all. Our vision encompasses a holistic
