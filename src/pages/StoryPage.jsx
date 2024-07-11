@@ -8,10 +8,13 @@ import Footer from "../components/Footer";
 import ReactPlayer from "react-player";
 import CustomCarousel from "../components/CustomCarousel";
 
+const formatTitleForUrl = (title) => title.toLowerCase().replace(/\s+/g, "-");
+
 const StoryPage = ({ stories }) => {
-  const { storyId } = useParams();
-  const storyIdNumber = Number(storyId);
-  const story = stories.find((story) => story.id === storyIdNumber);
+  const { storyTitle } = useParams();
+  const story = stories.find(
+    (story) => formatTitleForUrl(story.title) === storyTitle
+  );
 
   if (!story) {
     return <div>Story not found</div>;
@@ -31,14 +34,10 @@ const StoryPage = ({ stories }) => {
         className="h-[50vh]" // Half the screen height
       />
 
-      <div className="py-20">
-        <CustomCarousel images={story.imageUrls} captions={story.captions} />
-      </div>
-
       <div className="flex-1 p-4 sm:p-8 mx-auto">
         {/* Story Description */}
-        <div className="bg-[#f5f5f5] font-semibold text-white p-8 rounded-lg shadow-2xl mb-12 max-w-7xl mx-auto">
-          <p className="font-semibold sm:text-base md:text-lg leading-relaxed text-[#30475E] mb-4 sm:mb-8 text-justify">
+        <div className="bg-[#f5f5f5] text-white p-8 rounded-lg shadow-2xl mb-12 max-w-7xl mx-auto">
+          <p className="font-sans sm:text-base md:text-lg leading-relaxed text-[#121212] mb-4 sm:mb-8 text-justify">
             {story.description}
           </p>
         </div>
@@ -54,6 +53,9 @@ const StoryPage = ({ stories }) => {
             />
           </div>
         )}
+      </div>
+      <div className="py-20">
+        <CustomCarousel images={story.imageUrls} captions={story.captions} />
       </div>
       <Footer />
     </div>

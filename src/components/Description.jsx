@@ -24,15 +24,20 @@ const Description = () => {
             uncovering the rich tapestry of remote and rural life across India.
             Our mission is simple yet profound: to document and showcase the
             history, culture, and struggles of places and people that often go
-            unnoticed and unheard. In a country as diverse as India, there are
-            countless stories waiting to be told, and we believe that every
-            voice deserves to be heard. That's why we venture into the heart of
-            tribal areas, nestled in the farthest corners of our nation, to shed
-            light on the unique heritage and challenges faced by these
-            communities. Our work goes beyond mere documentation. We strive to
-            amplify the voices of those whose stories have been marginalized, to
-            bring attention to the cultural wealth and resilience of indigenous
-            peoples, and to foster a deeper understanding of their way of life.
+            unnoticed and unheard.
+          </p>
+          <p className="text-lg text-justify max-w-4xl mx-auto font-bold text-[#ab8149] mb-8">
+            In a country as diverse as India, there are countless stories
+            waiting to be told, and we believe that every voice deserves to be
+            heard. That's why we venture into the heart of tribal areas, nestled
+            in the farthest corners of our nation, to shed light on the unique
+            heritage and challenges faced by these communities. Our work goes
+            beyond mere documentation. We strive to amplify the voices of those
+            whose stories have been marginalized, to bring attention to the
+            cultural wealth and resilience of indigenous peoples, and to foster
+            a deeper understanding of their way of life.
+          </p>
+          <p className="text-lg text-justify max-w-4xl mx-auto font-bold text-[#ab8149] mb-8">
             But our mission doesn't stop there. We are deeply committed to
             addressing the pressing environmental issues plaguing our country,
             particularly in these remote regions. From climate change to habitat
@@ -45,9 +50,12 @@ const Description = () => {
             undertake meaningful fieldwork in remote areas. By nurturing the
             next generation of storytellers and change-makers, we hope to ensure
             that the voices of the marginalized continue to be heard for years
-            to come. Join us on our journey as we uncover the hidden stories of
-            India, advocate for environmental justice, and empower communities
-            to shape their own narratives. Together, we can make a difference.
+            to come.
+          </p>
+          <p className="text-xl text-justify max-w-3xl mx-auto font-bold text-[#534455] mb-8">
+            Join us on our journey as we uncover the hidden stories of India,
+            advocate for environmental justice, and empower communities to shape
+            their own narratives. Together, we can make a difference.
           </p>
         </div>
       </div>

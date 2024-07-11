@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Photo3 from "../assets/Photo3.jpg";
 import Footer from "../components/Footer";
 import Section from "../components/Section";
+import Mentor from "../components/Mentor";
 
 function Learn() {
   return (
@@ -13,6 +14,9 @@ function Learn() {
         <Navbar />
         <Section>
           <Header backgroundImage={Photo3} title="Learn" />
+        </Section>
+        <Section>
+          <Mentor />
         </Section>
         <Section>
           <Footer />

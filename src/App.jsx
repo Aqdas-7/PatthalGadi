@@ -64,7 +64,7 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/story/:storyId",
+    path: "/story/:storyTitle",
     element: (
       <Suspense fallback={<div>Loading...</div>}>
         <StoryPage stories={stories} />

@@ -32,6 +32,14 @@ const hoverVariants = {
   boxShadow: "0px 10px 20px rgba(1,2,3,1)",
 };
 
+// Function to sanitize the title to be URL-friendly
+const sanitizeTitle = (title) => {
+  return title
+    .toLowerCase()
+    .replace(/ /g, "-")
+    .replace(/[^\w-]+/g, "");
+};
+
 const Stories = ({ stories }) => {
   const controls = useAnimation();
   const { ref, inView } = useInView({
@@ -68,7 +76,10 @@ const Stories = ({ stories }) => {
               whileHover={hoverVariants}
               whileTap={{ scale: 0.95 }}
             >
-              <Link to={`/story/${story.id}`} className="absolute inset-0">
+              <Link
+                to={`/story/${sanitizeTitle(story.title)}`}
+                className="absolute inset-0"
+              >
                 <img
                   className="absolute inset-0 w-full h-full object-cover"
                   src={story.imageUrl}
