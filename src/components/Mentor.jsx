@@ -6,7 +6,7 @@ import Testimonial from "./Testimonial";
 const handleButtonClick = () => {
   const subject = "Inquiry";
   const body = "Hello,\n\nI would like to inquire about...";
-  const mailtoLink = `mailto:aqdas.ali.cd.met20@itbhu.ac.in?subject=${encodeURIComponent(
+  const mailtoLink = `mailto:patthalgadi@gmail.com?subject=${encodeURIComponent(
     subject
   )}&body=${encodeURIComponent(body)}`;
 
@@ -126,7 +126,7 @@ const Mentor = () => {
         <div className="flex justify-center">
           <button
             onClick={handleButtonClick}
-            className="py-4 px-8 bg-[#121212] text-[#f5f5f5] font-bold rounded-md shadow-md hover:bg-[#121212] hover:text-[#30475E] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#121212] transition duration-150 ease-in-out"
+            className="py-4 px-8 bg-[#34713c] text-[#f5f5f5] font-bold rounded-md shadow-md hover:bg-[#121212] hover:text-[#f5f5f5] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#121212] transition duration-150 ease-in-out"
           >
             Email Us
           </button>

@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 import Section from "../components/Section";
 // import AboutUs from "../components/AboutUs";
 import TextCarousel from "../components/TextCarousel";
-import background9 from "../assets/background9.jpg";
+import bg2 from "../assets/bg2.jpg";
 import { useNavigate } from "react-router-dom";
 import { updates, stories } from "../constants.js";
 
@@ -58,7 +58,7 @@ function Home() {
         <Navbar />
         <Section>
           <Header
-            backgroundImage={background9}
+            backgroundImage={bg2}
             location="Based in Hazaribagh, Jharkhand"
             title="Photographer and Filmmaker"
             subtitle="Climate Crisis & Global Environmental Issues"

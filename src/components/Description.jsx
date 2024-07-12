@@ -11,7 +11,7 @@ const Description = () => {
     >
       <div className="container mx-auto px-6">
         <div className="bg-[#fffce8] text-white p-8 rounded-lg shadow-lg mb-12 max-w-6xl mx-auto">
-          <h3 className="text-4xl text-[#534455] font-black text-center mb-8">
+          <h3 className="text-4xl text-[#34713c] font-black text-center mb-8">
             Welcome to Patthalgadi Foundation
           </h3>
           <h4 className="text-xl text-[#534455] max-w-xl mx-auto font-bold text-center mb-12">

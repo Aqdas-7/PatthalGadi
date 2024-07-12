@@ -31,7 +31,7 @@ const UpdateCard = ({ update, isHovered, onMouseEnter, onMouseLeave }) => {
         className="w-full h-48 object-cover rounded-t-lg"
       />
       <div className="p-4">
-        <h3 className="text-xl font-extrabold mb-2 text-[#F05454]">
+        <h3 className="text-xl font-extrabold mb-2 text-[#121212]">
           {update.title}
         </h3>
         <p className="text-[#ffffff] text-sm mb-2">{update.date}</p>

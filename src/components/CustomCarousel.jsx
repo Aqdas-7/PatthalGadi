@@ -30,7 +30,7 @@ const CustomCarousel = ({ images, captions }) => {
         responsive={responsive}
         infinite
         autoPlay
-        autoPlaySpeed={1500}
+        autoPlaySpeed={2000}
         keyBoardControl
         showDots={false}
         arrows

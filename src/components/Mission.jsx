@@ -10,7 +10,7 @@ const Mission = () => {
       style={{ backgroundImage: `url(${a9})` }}
     >
       <div className="container mx-auto px-6">
-        <h2 className="text-5xl text-[#f5f5f5] font-black text-center mb-20 uppercase">
+        <h2 className="text-5xl text-[#34713c] font-black text-center mb-20 uppercase">
           Our Mission
         </h2>
 
@@ -28,7 +28,7 @@ const Mission = () => {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-[#F05454] text-[#121212] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-black border">
+            <div className="bg-[#34713c] text-[#121212] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-black border">
               <h3 className="text-2xl text-left font-black text-[#121212] mb-8">
                 Flagship Initiative
               </h3>
@@ -38,7 +38,7 @@ const Mission = () => {
                 traditions.
               </p>
             </div>
-            <div className="bg-[#F05454] text-[#121212] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-black border">
+            <div className="bg-[#34713c] text-[#121212] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-black border">
               <h3 className="text-2xl text-left font-black text-[#121212] mb-8">
                 Documenting Challenges
               </h3>
@@ -47,7 +47,7 @@ const Mission = () => {
                 education, poverty, unemployment, and environmental issues.
               </p>
             </div>
-            <div className="bg-[#F05454] text-[#121212] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-black border">
+            <div className="bg-[#34713c] text-[#121212] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-black border">
               <h3 className="text-2xl text-left font-black text-[#121212] mb-8">
                 Voice for the Voiceless
               </h3>
@@ -56,7 +56,7 @@ const Mission = () => {
                 to share their stories and empower them to shape their futures.
               </p>
             </div>
-            <div className="bg-[#F05454] text-[#121212] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-black border]">
+            <div className="bg-[#31743c] text-[#121212] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-black border]">
               <h3 className="text-2xl text-left font-black text-[#121212] mb-8">
                 Power of Storytelling
               </h3>

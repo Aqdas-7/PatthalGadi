@@ -1,5 +1,6 @@
 import BackGround8 from "./assets/BackGround8.jpg";
 import Photo6 from "./assets/Photo6.jpg";
+import Banarasbg from "./assets/Banaras_bg.jpg";
 
 export const updates = [
   {
@@ -57,12 +58,11 @@ export const stories = [
   },
   {
     id: 2,
-    title: "Story 2",
+    title: "Banaras",
     url: "/story2",
     description:
-      "Hi, I’m Story 2, a passionate photographer and videographer with a love for capturing the beauty of the world.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1554956742-32f116cf57af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D",
+      "Varanasi (ISO: Vārāṇasī, Hindi: [ʋaːˈraːɳəsi] ⓘ;[a] also Benares, Banaras (Banārasa [bəˈnaːrəs] ⓘ)[13][14][15] or Kashi (Kāśī [ˈka:ʃi] ⓘ)[16]) is a city on the Ganges river in northern India that has a central place in the traditions of pilgrimage, death, and mourning in the Hindu world.[17][b] The city has a syncretic tradition of Islamic artisanship that underpins its religious tourism.[20] Located in the middle-Ganges valley in the southeastern part of the state of Uttar Pradesh, Varanasi lies on the left bank of the river. It is 692 kilometres (430 mi) to the southeast of India's capital New Delhi and 320 kilometres (200 mi) to the southeast of the state capital, Lucknow. It lies 121 kilometres (75 mi) downstream of Prayagraj, where the confluence with the Yamuna river is another major Hindu pilgrimage site. Varanasi, the center of Bhojpuri cultural region, is one of the world's oldest continually inhabited cities.[21][22][23] Kashi, its ancient name, was associated with a kingdom of the same name of 2,500 years ago. The Lion capital of Ashoka at nearby Sarnath has been interpreted to be a commemoration of the Buddha's first sermon there in the fifth century BCE.[24][25] In the 8th century, Adi Shankara established the worship of Shiva as an official sect of Varanasi. Tulsidas wrote his Awadhi language epic, the Ramcharitmanas, a Bhakti movement reworking of the Sanskrit Ramayana, in Varanasi. Several other major figures of the Bhakti movement were born in Varanasi, including Kabir and Ravidas.[26] In the 16th century, Rajput nobles in the service of the courts and armies of the Mughal emperor Akbar, sponsored the building or further enhancement of the major Shiva temple in the city; they also built other temples, all displaying an empire-wide architectural style.[27][28] Under the Treaty of Faizabad, the Banaras Kingdom became a subordinate under the East India Company in 1775,[29][30] the city later successively becoming a part of the Benares Division in the Ceded and Conquered Provinces in 1805, the North-Western Provinces in 1836, and the United Provinces 1902, and Uttar Pradesh in 1950.[31] Silk weaving, carpets, crafts and tourism employ a significant number of the local population, as do the Banaras Locomotive Works and Bharat Heavy Electricals. The city is known worldwide for its many ghats, steps leading down the steep river bank to the water, where pilgrims perform rituals. Of particular note are the Dashashwamedh Ghat, the Panchganga Ghat, the Manikarnika Ghat, and the Harishchandra Ghat, the last two being where Hindus cremate their dead. The Hindu genealogy registers at Varanasi are kept here. Among the notable temples in Varanasi are the Kashi Vishwanath Temple of Shiva, the Sankat Mochan Hanuman Temple, and the Durga Temple.The city has long been an educational and musical centre: many prominent Indian philosophers, poets, writers, and musicians live or have lived in the city, and it was the place where the Benares gharana form of Hindustani classical music was developed. In the 20th-century, the Hindi-Urdu writer Premchand and the shehnai player Bismillah Khan were associated with the city. India's oldest Sanskrit college, the Benares Sanskrit College, was founded by Jonathan Duncan, the resident of the East India Company in 1791. Later, education in Benares was greatly influenced by the rise of Indian nationalism in the late 19th-century. Annie Besant founded the Central Hindu College in 1898. In 1916, she and Madan Mohan Malviya founded the Banaras Hindu University, India's first modern residential university. Kashi Vidyapith was established in 1921, a response to Mahatma Gandhi's Non-cooperation movement.",
+    imageUrl: Banarasbg,
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     imageUrls: [
       "https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&w=600",

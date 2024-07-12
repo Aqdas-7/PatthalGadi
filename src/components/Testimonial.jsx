@@ -81,7 +81,7 @@ const Testimonial = () => {
           responsive={responsive}
           infinite
           autoPlay
-          autoPlaySpeed={1500}
+          autoPlaySpeed={2000}
           customTransition="transform 750ms ease-in-out"
           transitionDuration={750}
           containerClass="carousel-container"

@@ -45,7 +45,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20 max-w-7xl mx-auto px-1 sm:px-6 lg:px-8">
           <Link
             to="/"
-            className="text-3xl text-left font-bold text-[#F05454] flex items-center"
+            className="text-3xl text-left font-bold text-[#31743c] flex items-center"
           >
             PatthalGadi.
           </Link>

@@ -5,7 +5,7 @@ const ContactButton = () => {
   const handleButtonClick = () => {
     const subject = "Inquiry";
     const body = "Hello,\n\nI would like to inquire about...";
-    const mailtoLink = `mailto:aqdas.ali.cd.met20@itbhu.ac.in?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:patthalgadi@gmail.com?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(body)}`;
 
