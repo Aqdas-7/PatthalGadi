@@ -42,9 +42,9 @@ const TextCarousel = ({ images, text, button }) => {
   }, [controls, inView]);
 
   return (
-    <div className="bg-[#30475e] text-[#f5f5f5] p-8 md:p-16">
+    <div className="bg-[#43964e] text-[#f5f5f5] font-semibold p-8 md:p-16">
       <div className="max-w-screen-xl mx-auto">
-        <h1 className="text-4xl font-black text-[#f5f5f5] mb-10 text-center py-12">
+        <h1 className="text-4xl font-black text-[#121212] mb-10 text-center py-12">
           About Us
         </h1>
         <div className="flex flex-col md:flex-row items-stretch justify-between">

@@ -36,30 +36,32 @@ const Mentor = () => {
     <div className="bg-[#f5f5f5] py-16 px-4 sm:px-6 lg:px-8">
       {/* Introduction Section */}
       <div className="max-w-7xl mx-auto text-center mb-20">
-        <h2 className="text-3xl text-[#121212] font-extrabold text-center mb-12 uppercase bg-gray-200">
+        <h2 className="text-3xl text-[#2a7c35] font-extrabold text-center mb-12 uppercase bg-gray-200">
           Introduction
         </h2>
-        <p className="max-w-2xl text-justify mt-5 mx-auto text-xl text-[#30475E]">
+        <p className="max-w-2xl text-justify mt-5 mx-auto text-xl text-[#121212]">
           My mentorship program is aimed at photographers who are ready to go
           beyond equipment and single images. You know how to use your camera.
           You can take a good photo. But you’re struggling to find a clear
           purpose and meaning to your photography. You want to take your
           photography to the next level but you don’t know how. I can help you.
         </p>
-        <p className="max-w-2xl text-justify mt-5 mx-auto text-xl text-[#30475E]">
+        <p className="max-w-2xl text-justify mt-5 mx-auto text-xl text-[#121212]">
           I work with each mentee to find their personal vision and give them
           guidance to refining their portfolio and finding purpose with their
           photography.
         </p>
-        <p className="max-w-2xl font-bold text-justify mt-5 mx-auto text-xl text-[#121212]">
-          The program is aimed at amateur photographers and aspiring
-          professionals.
-        </p>
+        <ul className="max-w-2xl font-bold text-justify mt-5 mx-auto text-xl text-[#121212]">
+          <li>
+            The program is aimed at amateur photographers and aspiring
+            professionals.
+          </li>
+        </ul>
       </div>
 
       {/* Mentorship Plan Section */}
       <div className="mt-12 max-w-7xl mx-auto">
-        <h2 className="text-3xl text-[#121212] font-extrabold text-center mb-12 uppercase bg-gray-200">
+        <h2 className="text-3xl text-[#34713c] font-extrabold text-center mb-12 uppercase bg-gray-200">
           The Plan
         </h2>
         <div>
@@ -69,7 +71,7 @@ const Mentor = () => {
               className="flex flex-col rounded-lg shadow-lg overflow-hidden bg-[#f5f5f5] p-6"
             >
               <h4 className="text-2xl  text-[#121212]">{plan.stage}</h4>
-              <p className="mt-3 max-w-7xl text-justify text-lg font-meduim text-[#30475E]">
+              <p className="mt-3 max-w-7xl text-justify text-lg font-meduim text-[#121212]">
                 {plan.description}
               </p>
             </div>
@@ -81,7 +83,7 @@ const Mentor = () => {
 
       {/* Pricing Section */}
       <div className="mt-12 max-w-7xl mx-auto">
-        <h2 className="text-3xl text-[#121212] font-extrabold text-center mb-12 uppercase bg-gray-200 py-4">
+        <h2 className="text-3xl text-[#34713c] font-extrabold text-center mb-12 uppercase bg-gray-200 py-4">
           Pricing
         </h2>
         <div className="grid gap-8 md:grid-cols-2 mb-12">
@@ -92,7 +94,7 @@ const Mentor = () => {
             <p className="text-4xl font-bold text-center text-[#121212] mb-6">
               $500
             </p>
-            <ul className="text-base text-[#30475E] font-semibold list-disc pl-5 space-y-3">
+            <ul className="text-base text-[#121212] font-semibold list-disc pl-5 space-y-3">
               <li>Regular check-ins and feedback</li>
               <li>Access to all stages of mentorship</li>
               <li>Personalized guidance and advice</li>
@@ -106,7 +108,7 @@ const Mentor = () => {
             <p className="text-4xl font-bold text-center text-[#121212] mb-6">
               $1000
             </p>
-            <ul className="text-base text-[#30475E] list-disc pl-5 space-y-3">
+            <ul className="text-base text-[#121212] list-disc pl-5 space-y-3">
               <li>All features of Standard Mentorship</li>
               <li>Additional one-on-one sessions</li>
               <li>Personalized projects</li>
@@ -119,14 +121,14 @@ const Mentor = () => {
 
       {/* Testimonial Section */}
       <div className="max-w-7xl mx-auto tracking-wide leading-10">
-        <h2 className="text-2xl text-[#f5f5f5] font-bold text-center mb-12 uppercase bg-[#30475E] py-4">
+        <h2 className="text-3xl text-[#f5f5f5] font-bold text-center mb-12 bg-[#34713c] py-4">
           To apply to join the mentorship program, simply fill in the
           questionnaire below and email it to me at:
         </h2>
         <div className="flex justify-center">
           <button
             onClick={handleButtonClick}
-            className="py-4 px-8 bg-[#34713c] text-[#f5f5f5] font-bold rounded-md shadow-md hover:bg-[#121212] hover:text-[#f5f5f5] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#121212] transition duration-150 ease-in-out"
+            className="py-4 px-8 bg-[#121212] text-[#f5f5f5] font-bold rounded-md shadow-md hover:bg-[#f5f5f5] hover:text-[#121212] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#121212] transition duration-150 ease-in-out"
           >
             Email Us
           </button>

@@ -29,38 +29,38 @@ const Mission = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-[#34713c] text-[#121212] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-black border">
-              <h3 className="text-2xl text-left font-black text-[#121212] mb-8">
+              <h3 className="text-2xl text-left font-black text-[#f5f5f5] mb-8">
                 Flagship Initiative
               </h3>
-              <p className="text-[#f5f5f5] font-bold text-left text-sm">
+              <p className="text-[#121212] font-bold text-left text-sm">
                 We explore remote areas of India to uncover natural, historical,
                 and cultural treasures, highlighting ancient civilizations and
                 traditions.
               </p>
             </div>
             <div className="bg-[#34713c] text-[#121212] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-black border">
-              <h3 className="text-2xl text-left font-black text-[#121212] mb-8">
+              <h3 className="text-2xl text-left font-black text-[#f5f5f5] mb-8">
                 Documenting Challenges
               </h3>
-              <p className="text-[#f5f5f5] font-bold text-left text-sm">
+              <p className="text-[#121212] font-bold text-left text-sm">
                 We document the challenges faced by these communities, such as
                 education, poverty, unemployment, and environmental issues.
               </p>
             </div>
             <div className="bg-[#34713c] text-[#121212] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-black border">
-              <h3 className="text-2xl text-left font-black text-[#121212] mb-8">
+              <h3 className="text-2xl text-left font-black text-[#f5f5f5] mb-8">
                 Voice for the Voiceless
               </h3>
-              <p className="text-[#f5f5f5] font-bold text-left text-sm">
+              <p className="text-[#121212] font-bold text-left text-sm">
                 We advocate for marginalized individuals, providing a platform
                 to share their stories and empower them to shape their futures.
               </p>
             </div>
             <div className="bg-[#31743c] text-[#121212] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-black border]">
-              <h3 className="text-2xl text-left font-black text-[#121212] mb-8">
+              <h3 className="text-2xl text-left font-black text-[#f5f5f5] mb-8">
                 Power of Storytelling
               </h3>
-              <p className="text-[#f5f5f5] font-bold text-left text-sm">
+              <p className="text-[#121212] font-bold text-left text-sm">
                 We believe in storytelling's power to create positive change and
                 nurture future filmmakers and changemakers through mentorship
                 and training.

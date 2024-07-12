@@ -74,7 +74,7 @@ const Testimonial = () => {
   return (
     <div className="bg-[#f5f5f5] py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-3xl text-[#121212] font-extrabold text-center mb-12 uppercase bg-gray-200">
+        <h2 className="text-3xl text-[#34713c] font-extrabold text-center mb-12 uppercase bg-gray-200">
           Testimonials
         </h2>
         <Carousel
@@ -90,7 +90,7 @@ const Testimonial = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="flex flex-col items-center bg-[#121212] p-6 rounded-lg shadow-lg gap-6"
+              className="flex flex-col items-center bg-[#34713c] p-6 rounded-lg shadow-lg gap-6"
             >
               <img
                 className="w-16 h-16 rounded-full"

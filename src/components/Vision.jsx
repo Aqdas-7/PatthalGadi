@@ -28,10 +28,10 @@ const Vision = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
             <div className="bg-[#31743c] text-[#f5f5f5] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-[#30475E] border">
-              <h3 className="text-2xl text-left font-black text-[#121212] mb-8">
+              <h3 className="text-2xl text-left font-black text-[#f5f5f5] mb-8">
                 Celebration of Diversity
               </h3>
-              <p className="text-[#f5f5f5] font-bold text-left text-sm">
+              <p className="text-[#121212] font-semibold text-left text-sm">
                 Central to our vision is the celebration of India's diversity
                 and heritage. We strive to promote the environmental beauty,
                 geography, wildlife, mineral resources, and the vibrant tapestry
@@ -39,10 +39,10 @@ const Vision = () => {
               </p>
             </div>
             <div className="bg-[#34713c] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-[#30475E] border">
-              <h3 className="text-2xl text-left font-black text-[#121212] mb-8">
+              <h3 className="text-2xl text-left font-black text-[#f5f5f5] mb-8">
                 Empowerment of Indigenous Peoples
               </h3>
-              <p className="text-[#f5f5f5] font-bold text-left text-sm">
+              <p className="text-[#121212] font-semibold text-left text-sm">
                 We are committed to the betterment of the lives and conditions
                 of indigenous peoples. We strive to empower these communities to
                 demand their rights and assert their voices in decisions that
@@ -50,10 +50,10 @@ const Vision = () => {
               </p>
             </div>
             <div className="bg-[#31743c] p-8 rounded-lg shadow-lg flex flex-col items-center text-center border-[#30475E] border">
-              <h3 className="text-2xl text-left font-black text-[#121212] mb-8">
+              <h3 className="text-2xl text-left font-black text-[#f5f5f5] mb-8">
                 Environmental Stewardship
               </h3>
-              <p className="text-[#f5f5f5] font-bold text-left text-sm">
+              <p className="text-[#121212] font-bold text-left text-sm">
                 We are committed to the betterment of the lives and conditions
                 of indigenous peoples. We strive to empower these communities to
                 demand their rights and assert their voices in decisions that

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import a6 from "../assets/a6.jpg";
+import a6 from "../assets/a12.jpg";
 
 const Description = () => {
   return (
@@ -10,15 +10,15 @@ const Description = () => {
       style={{ backgroundImage: `url(${a6})` }}
     >
       <div className="container mx-auto px-6">
-        <div className="bg-[#fffce8] text-white p-8 rounded-lg shadow-lg mb-12 max-w-6xl mx-auto">
+        <div className="bg-[#f5f5f5] text-white p-8 rounded-lg shadow-lg mb-12 max-w-6xl mx-auto">
           <h3 className="text-4xl text-[#34713c] font-black text-center mb-8">
             Welcome to Patthalgadi Foundation
           </h3>
-          <h4 className="text-xl text-[#534455] max-w-xl mx-auto font-bold text-center mb-12">
+          <h4 className="text-xl text-[#141E46] max-w-xl mx-auto font-bold text-center mb-12">
             Here exploration meets advocacy, and storytelling becomes a catalyst
             for change.
           </h4>
-          <p className="text-lg text-justify max-w-4xl mx-auto font-bold text-[#ab8149] mb-8">
+          <p className="text-lg text-justify max-w-4xl mx-auto  text-[#121212] mb-8">
             At Patthalgadi Foundation we are more than just a research and
             filmmaking organization. We are passionate explorers dedicated to
             uncovering the rich tapestry of remote and rural life across India.
@@ -26,7 +26,7 @@ const Description = () => {
             history, culture, and struggles of places and people that often go
             unnoticed and unheard.
           </p>
-          <p className="text-lg text-justify max-w-4xl mx-auto font-bold text-[#ab8149] mb-8">
+          <p className="text-lg text-justify max-w-4xl mx-auto text-[#121212] mb-8">
             In a country as diverse as India, there are countless stories
             waiting to be told, and we believe that every voice deserves to be
             heard. That's why we venture into the heart of tribal areas, nestled
@@ -37,7 +37,7 @@ const Description = () => {
             cultural wealth and resilience of indigenous peoples, and to foster
             a deeper understanding of their way of life.
           </p>
-          <p className="text-lg text-justify max-w-4xl mx-auto font-bold text-[#ab8149] mb-8">
+          <p className="text-lg text-justify max-w-4xl mx-auto text-[#121212] mb-8">
             But our mission doesn't stop there. We are deeply committed to
             addressing the pressing environmental issues plaguing our country,
             particularly in these remote regions. From climate change to habitat
@@ -52,7 +52,7 @@ const Description = () => {
             that the voices of the marginalized continue to be heard for years
             to come.
           </p>
-          <p className="text-xl text-justify max-w-3xl mx-auto font-bold text-[#534455] mb-8">
+          <p className="text-xl text-justify max-w-4xl mx-auto font-semibold text-[#141E46] mb-8">
             Join us on our journey as we uncover the hidden stories of India,
             advocate for environmental justice, and empower communities to shape
             their own narratives. Together, we can make a difference.

@@ -36,6 +36,7 @@ const Updates = ({ updates }) => {
         <h2 className="text-4xl text-center font-black text-[#121212] mb-20">
           Trending
         </h2>
+
         <motion.div
           ref={ref}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
