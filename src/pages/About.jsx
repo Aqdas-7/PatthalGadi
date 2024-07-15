@@ -9,19 +9,59 @@ import Description from "../components/Description";
 import Vision from "../components/Vision";
 import Mission from "../components/Mission";
 import CustomCarousel from "../components/CustomCarousel";
+import Testimonial from "../components/Testimonial";
 // import CustomCarousel from "../components/CustomCarousel";
 
-const images = [
-  "https://images.unsplash.com/photo-1720545525602-b3fcc473b32b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8",
-  "https://images.unsplash.com/photo-1720572662063-05c3cf2ce0f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3fHx8ZW58MHx8fHx8",
-  "https://images.unsplash.com/photo-1720378042263-bd1a33156bbb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1720590898981-9cbf5ee129a8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8aVVJc25WdGpCMFl8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1720535878761-935b616366e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8eEh4WVRNSExnT2N8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1720511485583-1b70c1726f07?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDV8aG1lbnZRaFVteE18fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1560612268-80be18b2ad9f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8UzRNS0xBc0JCNzR8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1604156789095-3348604c0f43?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1693322248761-9c337e9ae5df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D",
-  "https://images.unsplash.com/photo-1621300801324-b17755c2964d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDc0fGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D",
+const testimonials = [
+  {
+    quote:
+      "This mentorship program has been a game-changer for me. I've learned so much and feel confident in my abilities now.",
+    name: "Student A",
+    profile: "Student",
+    image:
+      "https://images.unsplash.com/photo-1720640320081-763dc112f1b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8",
+  },
+  {
+    quote:
+      "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
+    name: "Student B",
+    profile: "Student",
+    image:
+      "https://plus.unsplash.com/premium_photo-1719850361637-b9514dfbee5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
+  },
+  {
+    quote:
+      "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
+    name: "Student C",
+    profile: "Student",
+    image:
+      "https://images.unsplash.com/photo-1718976142386-e9ebe34d3aee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzOXx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    quote:
+      "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
+    name: "Student D",
+    profile: "Student",
+    image:
+      "https://images.unsplash.com/photo-1720329461017-d6ed9f66beb5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0N3x8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    quote:
+      "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
+    name: "Student E",
+    profile: "Student",
+    image:
+      "https://plus.unsplash.com/premium_photo-1701889905370-86796636710a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1OHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    quote:
+      "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
+    name: "Student F",
+    profile: "Student",
+    image:
+      "https://images.unsplash.com/photo-1719336234156-320dafbac51a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2NHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  
 ];
 
 function About() {
@@ -38,12 +78,20 @@ function About() {
         </Section>
         <Section>
           <Description />
-          {/* <CustomCarousel images={images} /> */}
+        </Section>
+        <Section>
           <Mission />
+        </Section>
+        <Section>
           <Vision />
         </Section>
         <Section>
-          <CustomCarousel images={images} />
+          <h2 className="text-5xl mt-16 text-[#34713c] font-black text-center mb-16 ">
+            Members
+          </h2>
+          <div className="mb-16">
+            <Testimonial testimonials={testimonials} />
+          </div>
         </Section>
         <Section>
           <Footer />

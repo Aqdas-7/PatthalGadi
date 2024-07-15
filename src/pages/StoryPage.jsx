@@ -17,7 +17,7 @@ const StoryPage = ({ stories }) => {
   );
 
   if (!story) {
-    return <div>Story not found</div>;
+    return <div>Stories not found</div>;
   }
 
   const isYouTubeUrl = (url) => {
@@ -26,13 +26,9 @@ const StoryPage = ({ stories }) => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#f5f5f5]">
+    <div className="flex flex-col min-h-screen bg-[#f5f5f5]" loading="lazy">
       <Navbar />
-      <Header
-        backgroundImage={story.imageUrl}
-        title={story.title}
-        className="h-[50vh]" // Half the screen height
-      />
+      <Header backgroundImage={story.imageUrl} title={story.title} />
 
       <div className="flex-1 p-4 sm:p-8 mx-auto">
         {/* Story Description */}
@@ -55,7 +51,11 @@ const StoryPage = ({ stories }) => {
         )}
       </div>
       <div className="py-20">
-        <CustomCarousel images={story.imageUrls} captions={story.captions} />
+        <CustomCarousel
+          images={story.imageUrls}
+          captions={story.captions}
+          loading="lazy"
+        />
       </div>
       <Footer />
     </div>

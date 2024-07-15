@@ -1,6 +1,27 @@
 import BackGround8 from "./assets/BackGround8.jpg";
-import Photo6 from "./assets/Photo6.jpg";
-import Banarasbg from "./assets/Banaras_bg.jpg";
+// import Photo6 from "./assets/Photo6.jpg";
+import Banarasbg from "./assets/Banaras/Banaras_bg.jpg";
+import b1 from "./assets/Banaras/b1.jpg";
+import b2 from "./assets/Banaras/b2.jpg";
+import b3 from "./assets/Banaras/b3.jpg";
+import b4 from "./assets/Banaras/b4.jpg";
+import b5 from "./assets/Banaras/b5.jpg";
+import b6 from "./assets/Banaras/b6.jpg";
+import b7 from "./assets/Banaras/b7.jpg";
+import b8 from "./assets/Banaras/b8.jpg";
+import b9 from "./assets/Banaras/b9.jpg";
+import b10 from "./assets/Banaras/b10.jpg";
+import b11 from "./assets/Banaras/b11.jpg";
+import b12 from "./assets/Banaras/b12.jpg";
+import b13 from "./assets/Banaras/theChimp.jpg";
+import b14 from "./assets/Banaras/Ganga.jpg";
+
+import kylie_bg from "./assets/Kylie/kylie_bg.jpg";
+import k1 from "./assets/Kylie/k1.jpg";
+import k2 from "./assets/Kylie/k2.jpg";
+import k3 from "./assets/Kylie/k3.jpg";
+import k4 from "./assets/Kylie/k4.jpg";
+import k5 from "./assets/Kylie/k5.jpg";
 
 export const updates = [
   {
@@ -9,7 +30,8 @@ export const updates = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At elementum eu facilisis sed odio morbi quis commodo odio. Odio pellentesque diam volutpat commodo. Sed egestas egestas fringilla phasellus. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque. Habitasse platea dictumst quisque sagittis purus sit amet. Lorem ipsum dolor sit amet consectetur adipiscing. Netus et malesuada fames ac turpis egestas integer eget. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Justo eget magna fermentum iaculis eu. Enim praesent elementum facilisis leo vel fringilla est ullamcorper. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Aenean euismod elementum nisi quis eleifend quam. Fermentum et sollicitudin ac orci phasellus egestas. Donec enim diam vulputate ut pharetra sit amet aliquam id. Porttitor massa id neque aliquam vestibulum morbi. Quam lacus suspendisse faucibus interdum posuere lorem ipsum. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit. Augue mauris augue neque gravida in fermentum et. Et netus et malesuada fames. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Et leo duis ut diam. Fames ac turpis egestas integer eget aliquet nibh praesent tristique. Sit amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl. Tellus in metus vulputate eu. Facilisis magna etiam tempor orci eu lobortis elementum nibh. Aliquam vestibulum morbi blandit cursus risus at ultrices mi. Urna id volutpat lacus laoreet non. Duis ultricies lacus sed turpis tincidunt. Viverra nam libero justo laoreet. Tempus iaculis urna id volutpat lacus laoreet. Sit amet consectetur adipiscing elit ut aliquam purus. Cursus euismod quis viverra nibh cras pulvinar. Vitae elementum curabitur vitae nunc sed. Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Eget nunc scelerisque viverra mauris in. Fermentum iaculis eu non diam phasellus vestibulum lorem. Risus feugiat in ante metus dictum at tempor commodo. Proin libero nunc consequat interdum varius. Eget nunc lobortis mattis aliquam faucibus purus in massa. Vel elit scelerisque mauris pellentesque pulvinar pellentesque. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Libero nunc consequat interdum varius sit. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor. Mattis rhoncus urna neque viverra justo nec. Eu volutpat odio facilisis mauris sit amet massa vitae tortor. Amet consectetur adipiscing elit ut aliquam. Sit amet tellus cras adipiscing enim eu turpis. Magna ac placerat vestibulum lectus mauris ultrices eros. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Elementum nisi quis eleifend quam adipiscing vitae. Amet consectetur adipiscing elit pellentesque habitant morbi tristique. Sagittis id consectetur purus ut faucibus pulvinar elementum. Auctor urna nunc id cursus metus aliquam eleifend mi in. Sem viverra aliquet eget sit amet tellus cras adipiscing. Turpis nunc eget lorem dolor sed viverra. Urna condimentum mattis pellentesque id nibh. Libero id faucibus nisl tincidunt eget nullam. Tortor posuere ac ut consequat semper viverra nam libero justo. Mattis molestie a iaculis at erat pellentesque adipiscing. Cursus euismod quis viverra nibh cras pulvinar. Aliquam id diam maecenas ultricies mi. Ut aliquam purus sit amet luctus venenatis lectus magna fringilla. Et ligula ullamcorper malesuada proin. Gravida neque convallis a cras semper auctor neque vitae. Non nisi est sit amet facilisis magna etiam tempor orci. Duis ultricies lacus sed turpis tincidunt id aliquet risus. Nulla malesuada pellentesque elit eget gravida cum sociis. Vestibulum mattis ullamcorper velit sed. Nunc consequat interdum varius sit amet mattis vulputate. Feugiat in ante metus dictum at tempor commodo.",
     link: "/New Photo Series: Urban Landscapes",
-    image: Photo6,
+    image: b2,
+    imageUrls: [b1, b2, b3, b4],
     youtubeUrl: "https://www.youtube.com/watch?v=R8CIO1DZ2b8",
   },
   {
@@ -20,6 +42,7 @@ export const updates = [
     link: "/Behind the Scenes: Documentary Filmmaking",
     image:
       "https://images.unsplash.com/photo-1716565679084-2c3dbececc5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrls: [b1, b2, b3, b4],
     youtubeUrl: "https://www.youtube.com/watch?v=BagPDxyQfeQ",
   },
   {
@@ -30,6 +53,7 @@ export const updates = [
     link: "/Photography Tips: Capturing the Perfect Shot",
     image:
       "https://images.unsplash.com/photo-1716668596098-40ff5f73fb9e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D",
+    imageUrls: [b1, b2, b3, b4],
     youtubeUrl: "https://www.youtube.com/watch?v=o5u4HV342Vg",
   },
 ].reverse();
@@ -61,33 +85,20 @@ export const stories = [
     title: "Banaras",
     url: "/story2",
     description:
-      "Varanasi (ISO: Vārāṇasī, Hindi: [ʋaːˈraːɳəsi] ⓘ;[a] also Benares, Banaras (Banārasa [bəˈnaːrəs] ⓘ)[13][14][15] or Kashi (Kāśī [ˈka:ʃi] ⓘ)[16]) is a city on the Ganges river in northern India that has a central place in the traditions of pilgrimage, death, and mourning in the Hindu world.[17][b] The city has a syncretic tradition of Islamic artisanship that underpins its religious tourism.[20] Located in the middle-Ganges valley in the southeastern part of the state of Uttar Pradesh, Varanasi lies on the left bank of the river. It is 692 kilometres (430 mi) to the southeast of India's capital New Delhi and 320 kilometres (200 mi) to the southeast of the state capital, Lucknow. It lies 121 kilometres (75 mi) downstream of Prayagraj, where the confluence with the Yamuna river is another major Hindu pilgrimage site. Varanasi, the center of Bhojpuri cultural region, is one of the world's oldest continually inhabited cities.[21][22][23] Kashi, its ancient name, was associated with a kingdom of the same name of 2,500 years ago. The Lion capital of Ashoka at nearby Sarnath has been interpreted to be a commemoration of the Buddha's first sermon there in the fifth century BCE.[24][25] In the 8th century, Adi Shankara established the worship of Shiva as an official sect of Varanasi. Tulsidas wrote his Awadhi language epic, the Ramcharitmanas, a Bhakti movement reworking of the Sanskrit Ramayana, in Varanasi. Several other major figures of the Bhakti movement were born in Varanasi, including Kabir and Ravidas.[26] In the 16th century, Rajput nobles in the service of the courts and armies of the Mughal emperor Akbar, sponsored the building or further enhancement of the major Shiva temple in the city; they also built other temples, all displaying an empire-wide architectural style.[27][28] Under the Treaty of Faizabad, the Banaras Kingdom became a subordinate under the East India Company in 1775,[29][30] the city later successively becoming a part of the Benares Division in the Ceded and Conquered Provinces in 1805, the North-Western Provinces in 1836, and the United Provinces 1902, and Uttar Pradesh in 1950.[31] Silk weaving, carpets, crafts and tourism employ a significant number of the local population, as do the Banaras Locomotive Works and Bharat Heavy Electricals. The city is known worldwide for its many ghats, steps leading down the steep river bank to the water, where pilgrims perform rituals. Of particular note are the Dashashwamedh Ghat, the Panchganga Ghat, the Manikarnika Ghat, and the Harishchandra Ghat, the last two being where Hindus cremate their dead. The Hindu genealogy registers at Varanasi are kept here. Among the notable temples in Varanasi are the Kashi Vishwanath Temple of Shiva, the Sankat Mochan Hanuman Temple, and the Durga Temple.The city has long been an educational and musical centre: many prominent Indian philosophers, poets, writers, and musicians live or have lived in the city, and it was the place where the Benares gharana form of Hindustani classical music was developed. In the 20th-century, the Hindi-Urdu writer Premchand and the shehnai player Bismillah Khan were associated with the city. India's oldest Sanskrit college, the Benares Sanskrit College, was founded by Jonathan Duncan, the resident of the East India Company in 1791. Later, education in Benares was greatly influenced by the rise of Indian nationalism in the late 19th-century. Annie Besant founded the Central Hindu College in 1898. In 1916, she and Madan Mohan Malviya founded the Banaras Hindu University, India's first modern residential university. Kashi Vidyapith was established in 1921, a response to Mahatma Gandhi's Non-cooperation movement.",
+      "Varanasi is a city on the Ganges river in northern India that has a central place in the traditions of pilgrimage, death, and mourning in the Hindu world.[17][b] The city has a syncretic tradition of Islamic artisanship that underpins its religious tourism.[20] Located in the middle-Ganges valley in the southeastern part of the state of Uttar Pradesh, Varanasi lies on the left bank of the river. It is 692 kilometres (430 mi) to the southeast of India's capital New Delhi and 320 kilometres (200 mi) to the southeast of the state capital, Lucknow. It lies 121 kilometres (75 mi) downstream of Prayagraj, where the confluence with the Yamuna river is another major Hindu pilgrimage site. Varanasi, the center of Bhojpuri cultural region, is one of the world's oldest continually inhabited cities.[21][22][23] Kashi, its ancient name, was associated with a kingdom of the same name of 2,500 years ago. The Lion capital of Ashoka at nearby Sarnath has been interpreted to be a commemoration of the Buddha's first sermon there in the fifth century BCE.[24][25] In the 8th century, Adi Shankara established the worship of Shiva as an official sect of Varanasi. Tulsidas wrote his Awadhi language epic, the Ramcharitmanas, a Bhakti movement reworking of the Sanskrit Ramayana, in Varanasi. Several other major figures of the Bhakti movement were born in Varanasi, including Kabir and Ravidas.[26] In the 16th century, Rajput nobles in the service of the courts and armies of the Mughal emperor Akbar, sponsored the building or further enhancement of the major Shiva temple in the city; they also built other temples, all displaying an empire-wide architectural style.[27][28] Under the Treaty of Faizabad, the Banaras Kingdom became a subordinate under the East India Company in 1775,[29][30] the city later successively becoming a part of the Benares Division in the Ceded and Conquered Provinces in 1805, the North-Western Provinces in 1836, and the United Provinces 1902, and Uttar Pradesh in 1950.[31] Silk weaving, carpets, crafts and tourism employ a significant number of the local population, as do the Banaras Locomotive Works and Bharat Heavy Electricals. The city is known worldwide for its many ghats, steps leading down the steep river bank to the water, where pilgrims perform rituals. Of particular note are the Dashashwamedh Ghat, the Panchganga Ghat, the Manikarnika Ghat, and the Harishchandra Ghat, the last two being where Hindus cremate their dead. The Hindu genealogy registers at Varanasi are kept here. Among the notable temples in Varanasi are the Kashi Vishwanath Temple of Shiva, the Sankat Mochan Hanuman Temple, and the Durga Temple.The city has long been an educational and musical centre: many prominent Indian philosophers, poets, writers, and musicians live or have lived in the city, and it was the place where the Benares gharana form of Hindustani classical music was developed. In the 20th-century, the Hindi-Urdu writer Premchand and the shehnai player Bismillah Khan were associated with the city. India's oldest Sanskrit college, the Benares Sanskrit College, was founded by Jonathan Duncan, the resident of the East India Company in 1791. Later, education in Benares was greatly influenced by the rise of Indian nationalism in the late 19th-century. Annie Besant founded the Central Hindu College in 1898. In 1916, she and Madan Mohan Malviya founded the Banaras Hindu University, India's first modern residential university. Kashi Vidyapith was established in 1921, a response to Mahatma Gandhi's Non-cooperation movement.",
     imageUrl: Banarasbg,
-    videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    imageUrls: [
-      "https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&w=600",
-    ],
+    videoUrl: "https://www.youtube.com/watch?v=nNCBSJMgn5c",
+    imageUrls: [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14],
   },
   {
     id: 3,
-    title: "Story 3",
+    title: "Kylie",
     url: "/story3",
     description:
-      "Hi, I’m Story 3, a passionate photographer and videographer with a love for capturing the beauty of the world.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fHw%3D",
-    videoUrl: "https://www.youtube.com/watch?v=bzxFUlKf_ns",
-    imageUrls: [
-      "https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&w=600",
-    ],
+      "The term “tribal” or “Adivasi” creates an image of half-naked men and women in our mind, wielding arrows and spears, wearing feathers on their heads, and speaking an unintelligible language. Even as the majority of the world’s communities continued to change their lifestyles to keep up with the world’s “progress,” there were communities that remained true to their traditional values, customs, and beliefs, allowing them to live in harmony with nature and their unpolluted environment. The so-called civilised world labelled these communities as natives, uncivilised people, Aboriginals, Adivasis, Tribals, Indigenous, uncontacted people, and many other such terms. In India, they are commonly referred to as Adivasis/Girijans. Be it social or technological, the problems faced by tribals in India are many. They are educationally backward and face numerous social and religious troubles; they are in poverty and go through exploitation and forced displacement with several health issues. Every day, new tribal problems emerge throughout India. Tribals people are estimated 104 million and they cover 8.61 percent of the country’s total population, and the 2011 census has given this report. The seven states of northeast India and the “central tribal belt” stretching from Rajasthan to West Bengal have the highest concentrations of indigenous people. More than half of the Scheduled Tribes population lives in Madhya Pradesh, Chhattisgarh, Odisha, Maharashtra, Jharkhand, and Gujarat.",
+    imageUrl: kylie_bg,
+    videoUrl: "https://www.youtube.com/watch?v=m7IiDyB6ICk",
+    imageUrls: [k1, k2, k3, k4, k5],
   },
   {
     id: 4,

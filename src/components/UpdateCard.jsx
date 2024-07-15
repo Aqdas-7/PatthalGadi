@@ -28,6 +28,7 @@ const UpdateCard = ({ update, isHovered, onMouseEnter, onMouseLeave }) => {
       <img
         src={update.image}
         alt={update.title}
+        loading="lazy"
         className="w-full h-48 object-cover rounded-t-lg"
       />
       <div className="p-4">

@@ -21,8 +21,6 @@ function Contact() {
         <Section>
           <Form></Form>
         </Section>
-
-        
       </div>
     </>
   );

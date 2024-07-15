@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ReactPlayer from "react-player";
 import Header from "../components/Header";
+import CustomCarousel from "../components/CustomCarousel";
 
 const UpdatePage = ({ updates }) => {
   const { updateTitle } = useParams();
@@ -21,13 +22,6 @@ const UpdatePage = ({ updates }) => {
       <Navbar />
       <Header backgroundImage={update.image} />
       <div className="container mx-auto px-4 py-8 flex-grow">
-        {/* <div className="relative w-full h-[75vh] mb-8 rounded-lg shadow-lg overflow-hidden">
-          <img
-            src={update.image}
-            alt={update.title}
-            className="absolute inset-0 w-full h-full object-cover"
-          />
-        </div> */}
         <h1 className="text-4xl font-black text-[#121212] mb-4">
           {update.title}
         </h1>
@@ -37,7 +31,8 @@ const UpdatePage = ({ updates }) => {
             {update.description}
           </p>
         </div>
-        {update.youtubeUrl && (
+
+        {/* {update.youtubeUrl && (
           <div className="w-full max-w-2xl mx-auto mb-8">
             <ReactPlayer
               url={update.youtubeUrl}
@@ -47,8 +42,15 @@ const UpdatePage = ({ updates }) => {
               controls
             />
           </div>
-        )}
+        )} */}
       </div>
+
+      {update.imageUrls && (
+        <div className="mt-20 mb-20">
+          <CustomCarousel images={update.imageUrls} />
+        </div>
+      )}
+
       <Footer />
     </div>
   );

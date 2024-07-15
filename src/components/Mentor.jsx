@@ -2,6 +2,7 @@
 // src/components/Mentorship.js
 import React from "react";
 import Testimonial from "./Testimonial";
+import { MdEmail } from "react-icons/md";
 
 const handleButtonClick = () => {
   const subject = "Inquiry";
@@ -28,6 +29,57 @@ const mentorshipPlans = [
     stage: "Stage 3: Mastery",
     description:
       "Coming into the third stage and final month of the mentorship you will me near completion of your project. I will work with you to refine your project, help with editing and advise on the best ways in which to showcase and/or display your work. Whether you goal is to produce an online gallery, a book, or even pitch to a major news outlet, I will provide you with guidance to help you achieve your goals.",
+  },
+];
+
+const testimonials = [
+  {
+    quote:
+      "This mentorship program has been a game-changer for me. I've learned so much and feel confident in my abilities now.",
+    name: "Student A",
+    profile: "Student",
+    image:
+      "https://images.unsplash.com/photo-1720640320081-763dc112f1b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8",
+  },
+  {
+    quote:
+      "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
+    name: "Student B",
+    profile: "Student",
+    image:
+      "https://plus.unsplash.com/premium_photo-1719850361637-b9514dfbee5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
+  },
+  {
+    quote:
+      "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
+    name: "Student C",
+    profile: "Student",
+    image:
+      "https://images.unsplash.com/photo-1718976142386-e9ebe34d3aee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzOXx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    quote:
+      "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
+    name: "Student D",
+    profile: "Student",
+    image:
+      "https://images.unsplash.com/photo-1720329461017-d6ed9f66beb5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0N3x8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    quote:
+      "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
+    name: "Student E",
+    profile: "Student",
+    image:
+      "https://plus.unsplash.com/premium_photo-1701889905370-86796636710a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1OHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    quote:
+      "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
+    name: "Student F",
+    profile: "Student",
+    image:
+      "https://images.unsplash.com/photo-1719336234156-320dafbac51a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2NHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
@@ -78,11 +130,14 @@ const Mentor = () => {
           ))}
         </div>
       </div>
+      <h2 className="mt-20 text-3xl text-[#34713c] font-extrabold text-center mb-12 uppercase bg-gray-200">
+        Testimonials
+      </h2>
 
-      <Testimonial />
+      <Testimonial testimonials={testimonials} />
 
       {/* Pricing Section */}
-      <div className="mt-12 max-w-7xl mx-auto">
+      <div className="mt-16 max-w-7xl mx-auto">
         <h2 className="text-3xl text-[#34713c] font-extrabold text-center mb-12 uppercase bg-gray-200 py-4">
           Pricing
         </h2>
@@ -121,16 +176,16 @@ const Mentor = () => {
 
       {/* Testimonial Section */}
       <div className="max-w-7xl mx-auto tracking-wide leading-10">
-        <h2 className="text-3xl text-[#f5f5f5] font-bold text-center mb-12 bg-[#34713c] py-4">
+        <h2 className="text-2xl text-[#f5f5f5] font-bold text-center mb-12 bg-[#34713c] py-4">
           To apply to join the mentorship program, simply fill in the
           questionnaire below and email it to me at:
         </h2>
         <div className="flex justify-center">
           <button
             onClick={handleButtonClick}
-            className="py-4 px-8 bg-[#121212] text-[#f5f5f5] font-bold rounded-md shadow-md hover:bg-[#f5f5f5] hover:text-[#121212] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#121212] transition duration-150 ease-in-out"
+            className="py-4 px-8 bg-[#121212] text-[#f5f5f5] font-bold rounded-md shadow-md hover:bg-[#f5f5f5] hover:text-[#121212]  transition duration-150 ease-in-out"
           >
-            Email Us
+            <MdEmail size={32} />
           </button>
         </div>
       </div>

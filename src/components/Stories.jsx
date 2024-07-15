@@ -84,6 +84,7 @@ const Stories = ({ stories }) => {
                   className="absolute inset-0 w-full h-full object-cover"
                   src={story.imageUrl}
                   alt={story.title}
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 p-2 sm:p-4">
                   <h3 className="text-sm sm:text-base lg:text-lg font-bold text-white text-center">

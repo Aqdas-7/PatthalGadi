@@ -38,20 +38,20 @@ const Header = ({ backgroundImage, location, title, subtitle }) => {
     >
       <motion.div
         ref={ref}
-        className="p-6 rounded-lg text-center sm:text-right max-w-screen-md mx-auto"
+        className="p-6 rounded-lg text-center sm:text-right max-w-screen-md mx-auto mt-20"
         initial={{ opacity: 0.8, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
         <motion.p
-          className="font-semibold text-gray-300 text-base sm:text-lg mb-2"
+          className="font-semibold text-gray-300 text-base sm:text-lg mb-2 mt-20"
           initial={{ x: -200, opacity: 0 }}
           animate={controls}
         >
           {location}
         </motion.p>
         <motion.h2
-          className="font-black text-white text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
+          className="font-black text-[#f5f5f5] text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
           initial={{ x: -200, opacity: 0 }}
           animate={controls}
         >

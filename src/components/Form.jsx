@@ -1,5 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { MdEmail } from "react-icons/md"; // Importing icons from react-icons
 
 const ContactButton = () => {
   const handleButtonClick = () => {
@@ -30,15 +32,15 @@ const ContactButton = () => {
         <div className="flex space-x-20">
           <button
             onClick={handleButtonClick}
-            className="py-4 px-8 bg-[#f5f5f5] text-[#121212] font-bold rounded-md shadow-md hover:bg-[#121212] hover:text-[#f5f5f5] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#121212] transition duration-150 ease-in-out"
+            className="flex items-center justify-center py-4 px-8 bg-[#f5f5f5] text-[#121212] font-bold rounded-md shadow-md hover:bg-[#121212] hover:text-[#f5f5f5] transition duration-150 ease-in-out"
           >
-            Email
+            <MdEmail size={30} />
           </button>
-          <button className="py-4 px-8 bg-[#f5f5f5] text-[#121212] font-bold rounded-md shadow-md hover:bg-[#121212] hover:text-[#f5f5f5] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#121212] transition duration-150 ease-in-out">
-            <a href="https://gallagher-photo.com/about-me/">LinkdIn</a>
-          </button>
-          <button className="py-4 px-8 bg-[#f5f5f5] text-[#121212] font-bold rounded-md shadow-md hover:bg-[#121212] hover:text-[#f5f5f5] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#121212] transition duration-150 ease-in-out">
-            <a href="https://colorhunt.co/palettes/green">WhatsApp</a>
+
+          <button className="flex items-center justify-center py-4 px-8 bg-[#f5f5f5] text-[#121212] font-bold rounded-md shadow-md hover:bg-[#121212] hover:text-[#f5f5f5] transition duration-150 ease-in-out">
+            <a href="https://colorhunt.co/palettes/green">
+              <IoLogoWhatsapp size={30} />
+            </a>
           </button>
         </div>
       </div>
