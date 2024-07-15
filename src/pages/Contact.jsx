@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
-import BackGround8 from "../assets/BackGround8.jpg";
+
 import Footer from "../components/Footer";
 import Section from "../components/Section";
 import Form from "../components/Form";

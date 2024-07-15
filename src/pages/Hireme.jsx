@@ -2,7 +2,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
-import BackGround3 from "../assets/BackGround3.jpg";
 import Footer from "../components/Footer";
 import Section from "../components/Section";
 import Updates from "../components/Updates";

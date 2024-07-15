@@ -59,6 +59,7 @@ const CustomCarousel = ({ images, captions }) => {
         containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile"]}
         itemClass="carousel-item-padding-40-px"
+        loading="lazy"
       >
         {images.map((imageUrl, index) => (
           <div key={index} className="relative p-2">
@@ -91,11 +92,13 @@ const CustomCarousel = ({ images, captions }) => {
             &#8249;
           </button>
           <Zoom onZoomChange={() => setIsZoomed(false)}>
-            <img
-              src={images[currentImageIndex]}
-              alt={`Zoomed Slide ${currentImageIndex}`}
-              className="max-w-full max-h-full object-contain"
-            />
+            <div className="zoom-container">
+              <img
+                src={images[currentImageIndex]}
+                alt={`Zoomed Slide ${currentImageIndex}`}
+                className="max-w-4xl max-h-[90vh] p-2 object-contain"
+              />
+            </div>
           </Zoom>
           <button
             onClick={() => navigateToImage(1)}

@@ -5,7 +5,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import ReactPlayer from "react-player";
+// import ReactPlayer from "react-player";
 import Header from "../components/Header";
 import CustomCarousel from "../components/CustomCarousel";
 
@@ -27,7 +27,7 @@ const UpdatePage = ({ updates }) => {
         </h1>
         <p className="text-[#454545] font-extrabold mb-8">{update.date}</p>
         <div className="bg-[#F5F5F5] text-white p-8 rounded-lg shadow-lg mb-12 max-w-7xl mx-auto">
-          <p className="text-[#121212] text-justify mb-16">
+          <p className="text-[#121212] text-justify mb-16 font-serif">
             {update.description}
           </p>
         </div>

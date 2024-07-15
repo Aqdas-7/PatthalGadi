@@ -72,7 +72,7 @@ const TextCarousel = ({ images, text, button }) => {
               infiniteLoop
             >
               {images.map((image, index) => (
-                <div key={index} className="w-full h-64 md:h-96">
+                <div key={index} className="w-full h-64 md:h-96" loading="lazy">
                   <img
                     src={image}
                     alt={`Gallery ${index + 1}`}

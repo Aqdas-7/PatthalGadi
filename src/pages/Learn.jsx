@@ -2,7 +2,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
-import a15 from "../assets/a15.jpg";
 import Footer from "../components/Footer";
 import Section from "../components/Section";
 import Mentor from "../components/Mentor";

@@ -32,8 +32,8 @@ const StoryPage = ({ stories }) => {
 
       <div className="flex-1 p-4 sm:p-8 mx-auto">
         {/* Story Description */}
-        <div className="bg-[#f5f5f5] text-white p-8 rounded-lg shadow-2xl mb-12 max-w-7xl mx-auto">
-          <p className="font-sans sm:text-base md:text-lg leading-relaxed text-[#121212] mb-4 sm:mb-8 text-justify">
+        <div className="bg-[#f5f5f5] text-[#f5f5f5] p-8 rounded-lg shadow-2xl mb-12 max-w-5xl  mx-auto">
+          <p className="font-serif sm:text-base md:text-lg leading-relaxed text-[#454545] mb-4 sm:mb-8 text-justify">
             {story.description}
           </p>
         </div>
