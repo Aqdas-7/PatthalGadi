@@ -38,7 +38,9 @@ function Hireme() {
           <Services />
         </Section>
         <Section>
-          <CustomCarousel images={images}></CustomCarousel>
+          <div className="bg-[#121212] py-20">
+            <CustomCarousel images={images}></CustomCarousel>
+          </div>
         </Section>
         <Section>
           <Updates updates={updates} />
