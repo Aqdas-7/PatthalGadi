@@ -52,6 +52,26 @@ import i8 from "./assets/isco-caves/i8.jpg";
 import i9 from "./assets/isco-caves/i9.jpg";
 import i10 from "./assets/isco-caves/i10.jpg";
 
+import bg_tapin from "./assets/Tapin41/bg_tapin.jpg";
+import c0 from "./assets/Tapin41/c0.jpg";
+import c1 from "./assets/Tapin41/c1.jpg";
+import c2 from "./assets/Tapin41/c2.jpg";
+import c3 from "./assets/Tapin41/c3.jpg";
+import c4 from "./assets/Tapin41/c4.jpg";
+import c5 from "./assets/Tapin41/c5.jpg";
+import c6 from "./assets/Tapin41/c6.jpg";
+import c7 from "./assets/Tapin41/c7.jpg";
+import c8 from "./assets/Tapin41/c8.jpg";
+import c9 from "./assets/Tapin41/c9.jpg";
+import c10 from "./assets/Tapin41/c10.jpg";
+import c11 from "./assets/Tapin41/c11.jpg";
+import c13 from "./assets/Tapin41/c13.jpg";
+import c14 from "./assets/Tapin41/c14.jpg";
+import c15 from "./assets/Tapin41/c15.jpg";
+import c16 from "./assets/Tapin41/c16.jpg";
+import c17 from "./assets/Tapin41/c17.jpg";
+import c18 from "./assets/Tapin41/c18.jpg";
+
 export const updates = [
   {
     title: "New Photo Series: Urban Landscapes",
@@ -148,19 +168,31 @@ export const stories = [
   },
   {
     id: 6,
-    title: "Shilha",
+    title: "Tapin-41",
     url: "/story6",
     description:
       "Hi, I’m Story 6, a passionate photographer and videographer with a love for capturing the beauty of the world.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1554294314-80a5fb7e6bd5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NTh8fHxlbnwwfHx8fHw%3D",
+    imageUrl: bg_tapin,
     videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     imageUrls: [
-      "https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&w=600",
+      c0,
+      c1,
+      c2,
+      c3,
+      c4,
+      c5,
+      c6,
+      c7,
+      c8,
+      c9,
+      c10,
+      c11,
+      c13,
+      c14,
+      c15,
+      c16,
+      c17,
+      c18,
     ],
   },
 ].reverse();
