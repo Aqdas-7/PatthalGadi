@@ -12,25 +12,25 @@ const Footer = () => {
         <h2 className="text-[#f5f5f5] text-2xl font-bold mb-6">Follow Us</h2>
         <div className="flex space-x-6">
           <a
-            href="https://www.youtube.com/watch?v=HbgzrKJvDRw"
+            href="https://www.instagram.com/patthalgadi?igsh=Yml6Y292ZXo5a3do&utm_source=qr"
             className="text-[#f5f5f5] hover:text-[#e44dbe] flex items-center justify-center w-12 h-12 rounded-full transition duration-300"
           >
             <RiInstagramFill size={28} />
           </a>
           <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            href="https://youtu.be/sIn08F7Dw4o?si=a-0x6_kXGdAAcxaF"
             className="text-[#f5f5f5] hover:text-[#E62117] flex items-center justify-center w-12 h-12 rounded-full transition duration-300"
           >
             <FaYoutube size={28} />
           </a>
           <a
-            href="https://www.youtube.com/watch?v=7usNDGgJSY4"
+            href="https://youtu.be/sIn08F7Dw4o?si=a-0x6_kXGdAAcxaF"
             className="text-[#f5f5f5] hover:text-[#5ae96d] flex items-center justify-center w-12 h-12 rounded-full transition duration-300"
           >
             <FaXTwitter size={28} />
           </a>
           <a
-            href="https://www.youtube.com/watch?v=qiqT0rJ7zIo"
+            href="https://youtu.be/sIn08F7Dw4o?si=a-0x6_kXGdAAcxaF"
             className="text-[#f5f5f5] hover:text-[#0077B5] flex items-center justify-center w-12 h-12 rounded-full transition duration-300"
           >
             <FaLinkedin size={28} />

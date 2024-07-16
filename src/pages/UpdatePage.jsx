@@ -5,7 +5,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-// import ReactPlayer from "react-player";
+import ReactPlayer from "react-player";
 import Header from "../components/Header";
 import CustomCarousel from "../components/CustomCarousel";
 
@@ -32,7 +32,7 @@ const UpdatePage = ({ updates }) => {
           </p>
         </div>
 
-        {/* {update.youtubeUrl && (
+        {update.youtubeUrl && (
           <div className="w-full max-w-2xl mx-auto mb-8">
             <ReactPlayer
               url={update.youtubeUrl}
@@ -42,11 +42,11 @@ const UpdatePage = ({ updates }) => {
               controls
             />
           </div>
-        )} */}
+        )}
       </div>
 
       {update.imageUrls && (
-        <div className="mt-20 mb-20">
+        <div className="mt-20 mb-20 bg-[#121212] py-10">
           <CustomCarousel images={update.imageUrls} />
         </div>
       )}

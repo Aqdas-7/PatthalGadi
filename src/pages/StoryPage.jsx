@@ -21,7 +21,8 @@ const StoryPage = ({ stories }) => {
   }
 
   const isYouTubeUrl = (url) => {
-    const regex = /^https:\/\/www\.youtube\.com\/watch\?v=.{11}$/;
+    const regex =
+      /^(https:\/\/www\.youtube\.com\/watch\?v=.{11}|https:\/\/youtu\.be\/.{11})(\?[^#]+)?(#.+)?$/;
     return regex.test(url);
   };
 

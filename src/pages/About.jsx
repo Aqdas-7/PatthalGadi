@@ -16,52 +16,51 @@ const testimonials = [
   {
     quote:
       "This mentorship program has been a game-changer for me. I've learned so much and feel confident in my abilities now.",
-    name: "Student A",
-    profile: "Student",
+    name: "Danish Khan",
+    profile: "Founder",
     image:
       "https://images.unsplash.com/photo-1720640320081-763dc112f1b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8",
   },
   {
     quote:
       "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
-    name: "Student B",
-    profile: "Student",
+    name: "Kaunain Raza",
+    profile: "Co-Founder",
     image:
       "https://plus.unsplash.com/premium_photo-1719850361637-b9514dfbee5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
   },
   {
     quote:
       "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
-    name: "Student C",
-    profile: "Student",
+    name: "Shiraz Mallick",
+    profile: "Marketing Advisor",
     image:
       "https://images.unsplash.com/photo-1718976142386-e9ebe34d3aee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzOXx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     quote:
       "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
-    name: "Student D",
-    profile: "Student",
+    name: "Aqdas Ali",
+    profile: "Tech Head",
     image:
       "https://images.unsplash.com/photo-1720329461017-d6ed9f66beb5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0N3x8fGVufDB8fHx8fA%3D%3D",
   },
   {
     quote:
       "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
-    name: "Student E",
-    profile: "Student",
+    name: "Dr.Ammar Azam",
+    profile: "Research Head",
     image:
       "https://plus.unsplash.com/premium_photo-1701889905370-86796636710a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1OHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     quote:
       "A wonderful experience that helped me grow both personally and professionally. I can't thank my mentor enough.",
-    name: "Student F",
-    profile: "Student",
+    name: "Dr.Aazib Manzoor",
+    profile: "Creative Lead",
     image:
       "https://images.unsplash.com/photo-1719336234156-320dafbac51a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2NHx8fGVufDB8fHx8fA%3D%3D",
   },
-  
 ];
 
 function About() {
