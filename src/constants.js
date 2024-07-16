@@ -10,7 +10,7 @@ import b9 from "./assets/Banaras/b9.jpg";
 import b10 from "./assets/Banaras/b10.jpg";
 import b11 from "./assets/Banaras/b11.jpg";
 import b12 from "./assets/Banaras/b12.jpg";
-import b13 from "./assets/Banaras/theChimp.jpg";
+import b13 from "./assets/Banaras/the_chimp.jpg";
 import b14 from "./assets/Banaras/Ganga.jpg";
 
 import bg_d from "./assets/ccl-coal-mines/bg_d.jpg";

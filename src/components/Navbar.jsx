@@ -60,9 +60,10 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
+
           <div
             onClick={handleNav}
-            className="block md:hidden z-50 cursor-pointer text-[#121212]"
+            className="fblock md:hidden z-50 cursor-pointer text-[#121212]"
           >
             {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
           </div>
@@ -72,12 +73,12 @@ const Navbar = () => {
             nav ? "translate-x-0" : "-translate-x-full"
           }`}
         >
-          <ul className="flex flex-col items-center space-y-6 mt-10 px-4 bg-[#f5f5f5]">
+          <ul className="flex flex-col items-center space-y-8 mt-16 px-4 bg-[#f5f5f5]">
             {navItems.map((item) => (
               <li key={item.id} className="w-full text-center">
                 <Link
                   to={item.href}
-                  className="block w-full p-4 font-semibold border border-[#f5f5f5] hover:bg-[#121212] transition duration-300 hover:text-[#f5f5f5]"
+                  className="block bg-[#121212] text-[#f5f5f5] w-full mb-2 p-2 font-semibold border border-[#121212] hover:bg-[#f5f5f5] transition duration-300 hover:text-[#121212]"
                   onClick={handleNav}
                 >
                   {item.text}
