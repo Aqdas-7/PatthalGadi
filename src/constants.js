@@ -91,7 +91,7 @@ import a11 from "./assets/Bah/a11.jpg";
 import a12 from "./assets/Bah/a12.jpg";
 import a13 from "./assets/Bah/a13.jpg";
 
-import t0 from "./assets/Tips/t1.jpg";
+// import t0 from "./assets/Tips/t1.jpg";
 import t1 from "./assets/Tips/t1.jpg";
 import t2 from "./assets/Tips/t2.jpg";
 import t3 from "./assets/Tips/t3.jpg";
@@ -124,7 +124,7 @@ export const updates = [
     link: "/Photography Tips: Capturing the Perfect Shot",
     image:
       "https://images.unsplash.com/photo-1716668596098-40ff5f73fb9e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8fA%3D%3D",
-    imageUrls: [t0, t1, t2, t3, t4],
+    imageUrls: [t1, t2, t3, t4],
     youtubeUrl: "https://youtu.be/sIn08F7Dw4o?si=a-0x6_kXGdAAcxaF",
   },
 ].reverse();
