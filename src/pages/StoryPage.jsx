@@ -50,7 +50,7 @@ const StoryPage = ({ stories }) => {
           </div>
         )}
       </div>
-      <div className="py-20">
+      <div className="py-20 bg-[#121212] mb-1">
         <CustomCarousel
           images={story.imageUrls}
           captions={story.captions}

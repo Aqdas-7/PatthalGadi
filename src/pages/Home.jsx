@@ -6,19 +6,17 @@ import Stories from "../components/Stories";
 import Updates from "../components/Updates";
 import Footer from "../components/Footer";
 import Section from "../components/Section";
-// import AboutUs from "../components/AboutUs";
 import TextCarousel from "../components/TextCarousel";
 import bg2 from "../assets/bg2.jpg";
 import { useNavigate } from "react-router-dom";
 import { updates, stories } from "../constants.js";
 
-const images = [
-  "https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&w=600",
-  "https://images.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg?auto=compress&cs=tinysrgb&w=600",
-  "https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&w=600",
-  "https://images.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg?auto=compress&cs=tinysrgb&w=600",
-  "https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&w=600",
-];
+import ab1 from "../assets/About/ab1.jpg";
+import ab2 from "../assets/About/ab2.jpg";
+import ab3 from "../assets/About/ab3.jpg";
+import ab4 from "../assets/About/ab4.jpg";
+
+const images = [ab1, ab2, ab3, ab4];
 
 const text = [
   "In the heart of India, Patthalgadi Foundation dives into rural and tribal life.  We document the rich history, culture, and struggles of these forgotten communities.  But Patthalgadi goes beyond storytelling.  We use film and research to champion environmental justice, raising awareness about climate change and habitat loss in these regions.  Investing in the future, we train budding storytellers and social workers, ensuring these voices continue to be heard.  Join Patthalgadi to explore untold stories, advocate for change, and empower communities to shape their own future.",

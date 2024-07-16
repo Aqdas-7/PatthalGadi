@@ -19,11 +19,11 @@ const CustomGallery = ({ images, captions }) => {
         showPlayButton={false}
         showFullscreenButton={true}
         renderItem={(item) => (
-          <div className="image-gallery-image">
+          <div className="relative w-full h-96 flex justify-center items-center">
             <img
               src={item.original}
               alt={`Slide ${item.description}`}
-              className="w-full h-full object-cover rounded-lg"
+              className="max-w-full max-h-full object-contain rounded-lg"
             />
             {item.description && (
               <div className="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black/70 to-transparent text-white rounded-b-lg">
